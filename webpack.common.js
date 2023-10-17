@@ -66,14 +66,7 @@ module.exports = {
         type: 'asset/source'
       },
       {
-        test: /\.png/,
-        type: 'asset/resource',
-        generator: {
-          filename: 'images/[hash][ext][query]'
-        }
-      },
-      {
-        test: /\.svg/,
+        test: /\.(png|svg|jpg|jpeg|webp)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'images/[hash][ext][query]'
@@ -101,31 +94,39 @@ module.exports = {
     }),
     // Section
     new HtmlWebpackPlugin({
-      template: './src/spaceships.html',
-      filename: './spaceships.html',
+      template: './src/pdd.html',
+      filename: './pdd.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/spaceobjects.html',
-      filename: './spaceobjects.html',
+      template: './src/articles.html',
+      filename: './articles.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/education.html',
+      filename: './education.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/responsive-images.html',
+      filename: './responsive-images.html',
     }),
     // Article
     new HtmlWebpackPlugin({
-      template: './src/spaceships/buran.html',
-      filename: './spaceships/buran.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/spaceobjects/moon.html',
-      filename: './spaceobjects/moon.html',
+      template: './src/articles/firstarticle.html',
+      filename: './articles/firstarticle.html',
     }),
     // Partials
-    new HtmlWebpackPartialsPlugin([
-      {
-        path: path.join(__dirname, './src/partials/analytics.html'),
-        location: 'analytics',
-        template_filename: '*',
-        priority: 'replace'
-      }
-    ])
+    // new HtmlWebpackPartialsPlugin([
+    //   {
+    //     path: path.join(__dirname, './src/partials/analytics.html'),
+    //     location: 'analytics',
+    //     template_filename: '*',
+    //     priority: 'replace'
+    //   }
+    // ])
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
