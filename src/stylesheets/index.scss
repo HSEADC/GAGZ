@@ -1,6 +1,12 @@
 body.index {
-    background-color: mediumvioletred;
-    font-family: AR One Sans;
-    font-size: 16px;
-    font-weight: 500;
+    background-color: var(--light);
+    font-family: 'AR One Sans';
+       form>* {
+        font-size: 16px;
+        font-weight: 500;  
+       }
+       script {
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
