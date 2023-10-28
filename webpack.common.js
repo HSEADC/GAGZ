@@ -98,6 +98,10 @@ module.exports = {
       filename: './pdd.html',
     }),
     new HtmlWebpackPlugin({
+      template: './src/structure.html',
+      filename: './structure.html',
+    }),
+    new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
     }),
