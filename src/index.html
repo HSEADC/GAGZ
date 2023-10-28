@@ -8,9 +8,9 @@
 <body>
     <!-- modify this form HTML and place wherever you want your form -->
 <form id="my-form" action="https://formspree.io/f/xvojdldj" method="POST">
-    <label>Email:</label>
+    <label>Электронная почта:</label>
     <input type="email" name="email" />
-    <button id="my-form-button">Submit</button>
+    <button id="my-form-button">Отправить</button>
     <p id="my-form-status"></p>
   </form>
   <!-- Place this script at the end of the body tag -->
@@ -29,19 +29,19 @@
           }
         }).then(response => {
           if (response.ok) {
-            status.innerHTML = "Thanks for your submission!";
+            status.innerHTML = "Спасибо!";
             form.reset()
           } else {
             response.json().then(data => {
               if (Object.hasOwn(data, 'errors')) {
                 status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
               } else {
-                status.innerHTML = "Oops! There was a problem submitting your form"
+                status.innerHTML = "Упс! Возникла проблема с отправкой формы..."
               }
             })
           }
         }).catch(error => {
-          status.innerHTML = "Oops! There was a problem submitting your form"
+          status.innerHTML = "Упс! Возникла проблема с отправкой формы..."
         });
       }
       form.addEventListener("submit", handleSubmit)
