@@ -113,10 +113,6 @@ module.exports = {
       template: './src/about.html',
       filename: './about.html',
     }),
-    new HtmlWebpackPlugin({
-      template: './src/responsive-images.html',
-      filename: './responsive-images.html',
-    }),
     // Article
     new HtmlWebpackPlugin({
       template: './src/articles/firstarticle.html',
