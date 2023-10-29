@@ -1,28 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body.education {
+  background-color: var(--light); 
+  font-family: 'Geologica'; 
+  margin-left: 60px;
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
   }
-  
-  html,
-  body {
-    height: 100%;
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
   }
-  body.education {
-    background-color: var(--light); 
-    font-family: 'Geologica'; 
-    margin-left: 60px;
-    margin-top: 60px;
-    h1 {
-      font-size: 48px;
-      font-weight: 700;
-      margin-top: 40px;
-    }
-    a {
-      font-size: 16px;
-      font-weight: 400;
-      text-decoration: none;
-      color: mediumvioletred;
-    }
-    a:hover {
-        color: black;
-    }
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--projectorange);
+  }
+  a:hover {
+    color: black;
+}
+  li {
+    margin-top: 14px;
+  }
+  ul {
+    margin-top: 20px;
+  }
 }
