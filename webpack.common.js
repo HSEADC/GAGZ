@@ -94,7 +94,7 @@ module.exports = {
     }),
     // Section
     new HtmlWebpackPlugin({
-      template: './src/pdd.html',
+      template: './src/pdd/pdd.html',
       filename: './pdd.html',
     }),
     new HtmlWebpackPlugin({
@@ -106,7 +106,7 @@ module.exports = {
       filename: './articles.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/education.html',
+      template: './src/education/education.html',
       filename: './education.html',
     }),
     new HtmlWebpackPlugin({
@@ -115,7 +115,7 @@ module.exports = {
     }),
     // Article
     new HtmlWebpackPlugin({
-      template: './src/articles/firstarticle.html',
+      template: './src/articles/auto/firstarticle.html',
       filename: './articles/firstarticle.html',
     }),
     // Partials
