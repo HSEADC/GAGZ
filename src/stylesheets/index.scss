@@ -1,23 +1,43 @@
 body.index {
-    background-color: var(--light);
+    background-color: #1E1E1E;
     font-family: 'Geologica';
-    margin-left: 60px;
-    margin-top: 60px;
-       form>* {
-        font-size: 16px;
-        font-weight: 400;  
-       }
-       script>* {
-        font-size: 16px;
-        font-weight: 600;
+    display: flex;
+    justify-content: center;
+    div.background1 {
+        width: 100%;
+            div.orangerect1 {
+                width: 100vw;
+                height: 232px;
+                background-color: var(--projectorange);
+                margin-top: 198px;
+                position: absolute;
+            }
+            div.whiterect1 {
+                width: 1057px;
+                height: 654px;
+                background-color: white;
+                border-radius: 41px;
+                position: absolute;
+                align-self: center;
+                justify-self: center;
+                justify-content: center;
+                    form>* {
+                        font-size: 16px;
+                        font-weight: 400;  
+                    }
+            }
     }
-    a {
-        font-size: 16px;
-        font-weight: 400;
-        text-decoration: none;
-        color: var(--projectorange);
+        script>* {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        a {
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+            color: var(--projectorange);
     }
     a:hover {
-        color: black;
+        color: white;
     }
 }
