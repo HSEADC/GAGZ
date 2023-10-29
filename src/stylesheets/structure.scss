@@ -1,8 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
 body.structure {
   background-color: var(--light); 
-}
-h1 {
-  font-family: 'AR One Sans'; 
-  font-size: 48px;
-  font-weight: 700;
+  font-family: 'Geologica'; 
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
