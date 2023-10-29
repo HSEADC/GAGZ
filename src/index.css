@@ -2,6 +2,9 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/article.scss';
-@import 'stylesheets/section.scss';
+@import 'stylesheets/about.scss';
+@import 'stylesheets/articles.scss';
+@import 'stylesheets/pdd.scss';
+@import 'stylesheets/education.scss';
 @import 'stylesheets/index.scss';
 @import 'stylesheets/structure.scss';
