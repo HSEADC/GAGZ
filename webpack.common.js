@@ -118,6 +118,50 @@ module.exports = {
       template: './src/articles/auto/firstarticle.html',
       filename: './articles/auto/firstarticle.html',
     }),
+    //PDD
+    new HtmlWebpackPlugin({
+      template: './src/pdd/autopdd.html',
+      filename: './pdd/autopdd.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pdd/pedestrianpdd.html',
+      filename: './pdd/pedestrianpdd.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pdd/otherpdd.html',
+      filename: './pdd/otherpdd.html',
+    }),
+    //Education
+    new HtmlWebpackPlugin({
+      template: './src/education/flipcards.html',
+      filename: './education/flipcards.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/education/tests.html',
+      filename: './education/tests.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/education/tickets.html',
+      filename: './education/tickets.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/education/videolessons.html',
+      filename: './education/videolessons.html',
+    }),
+     //Articles
+     new HtmlWebpackPlugin({
+      template: './src/articles/auto.html',
+      filename: './articles/auto.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/moto.html',
+      filename: './articles/moto.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/bicycle.html',
+      filename: './articles/bicycle.html',
+    }),
+    
     // Partials
     // new HtmlWebpackPartialsPlugin([
     //   {
