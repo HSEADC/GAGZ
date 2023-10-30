@@ -7,20 +7,35 @@ body {
   height: 100%;
 }
 body.about {
-  background-color: var(--light); 
-  font-family: 'Geologica'; 
-  margin-left: 60px;
-  h1 {
-    font-size: 48px;
-    font-weight: 700;
+  background-color: black; 
+  display: block;
+  margin-top: 40px;
+  div.protomenu1 {
     margin-top: 40px;
-  }
-  h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 30px;
+    display: flex;
+    margin-left: 80px;
+    position: absolute;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+    h3 {
+      font-family: 'Angry';
+      font-size: 48px;
+      color: white;
+      margin-left: 20px;
+    }
+    p {
+      font-family: 'Geologica';
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+      margin-left: 40px;
+      margin-top: 22px;
+    }
   }
   a {
+    font-family: 'Geologica';
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -34,5 +49,22 @@ body.about {
   }
   ul {
     margin-top: 20px;
+  }
+  div.chat1 {
+    display: flex;
+    justify-content: center;
+    div.rectback1 {
+      width: 1290px;
+      height: 1000px;
+      background: linear-gradient(#FF5E1A, 10%, black);
+      margin-top: 130px;
+      border-radius: 44px;
+      opacity: 20%;
+      div.message1 {
+        background: url(../images/message1.svg);
+        width: 431px;
+        height: 114px;
+      }
+    }
   }
 }
