@@ -1,6 +1,105 @@
 body.index {
-    background-color: mediumvioletred;
-    font-family: AR One Sans;
-    font-size: 16px;
-    font-weight: 500;
+    background-color: #1E1E1E;
+    font-family: 'Geologica';
+    display: flex;
+    justify-content: center;
+    div.background1 {
+        width: 100vw;
+        height: 125%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background: url(images/texture1.png);
+        
+            div.tothemain {
+                position: relative;
+                justify-self: center;
+                text-align: center;
+                margin-top: 20px;
+            }
+            div.orangerect1 {
+                width: 100vw;
+                height: 232px;
+                background-color: var(--projectorange);
+                margin-top: 198px;
+                position: absolute;
+            }
+            div.whiterect1 {
+                width: 1057px;
+                height: 654px;
+                background-color: white;
+                border-radius: 41px;
+                position: absolute;
+                margin-top: 113px;
+                justify-content: center;
+                box-shadow: 0px 0px 30px 0px black;
+                    h1.name1 {
+                        font-family: 'Angry';
+                        font-size: 278px;
+                        text-align: center;
+                        margin-top: 82px;
+                    }
+                    h2.info1 {
+                        font-family: 'Geologica';
+                        font-weight: 400;
+                        font-size: 28px;
+                        color: var(--projectorange);
+                        text-align: center;
+                    }
+                    div.form1 {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    form {
+                        font-size: 16px;
+                        font-weight: 400;
+                        display: inline-block;
+                        justify-content: center;  
+                        margin-top: 40px;
+                        width: auto;
+                        div input {
+                            margin-top: 10px;
+                            box-sizing: border-box;
+                            border: 0;
+                            display: block;
+                            width: 320px;
+                            padding: 0 auto;
+                            outline: none;
+                            border-bottom: 1px solid #1E1E1E;
+                            
+                            p {
+                                font-family: 'Geologica';
+                            }
+                        }
+                        div {
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                margin-top: 10px;
+                                outline: none;
+                                border: 0;
+                                background-color: var(--projectorange);
+                                border-radius: 5px;
+                                color: white;
+                                padding: 15px 15px 15px 15px;
+                            }
+                        }
+                       
+                    }
+                    
+            }
+    }
+        script>* {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        a {
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+            color: var(--projectorange);
+    }
+    a:hover {
+        color: white;
+    }
 }

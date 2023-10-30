@@ -1,7 +1,26 @@
-body.article {
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  body.article {
     background-color: var(--white);
-    font-family: 'AR One Sans';
+    font-family: 'Geologica';
+    margin-top: 60px;
 
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--projectorange); 
+        margin-left: 60px;
+    }
+    a:hover {
+        color: black;
+    }
     article {
         width: 600px;
         margin: 0 auto;
