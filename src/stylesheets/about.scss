@@ -19,6 +19,12 @@ body.about {
       width: 36px;
       height: 36px;
     }
+    img.vk {
+      margin-left: 840px;
+    }
+    img.tg {
+      margin-left: 40px;
+    }
     h3 {
       font-family: 'Angry';
       font-size: 48px;
@@ -53,18 +59,153 @@ body.about {
   div.chat1 {
     display: flex;
     justify-content: center;
-    div.rectback1 {
+    
+    div.chatinner {
       width: 1290px;
       height: 1000px;
-      background: linear-gradient(#FF5E1A, 10%, black);
-      margin-top: 130px;
-      border-radius: 44px;
-      opacity: 20%;
+      div.rectback1 {
+        width: 1290px;
+        height: 1000px;
+        background: linear-gradient(#8a300a, 10%, black);
+        margin-top: 130px;
+        border-radius: 44px;
+        display: inline-block;
+      }
       div.message1 {
-        background: url(../images/message1.svg);
+        margin-left: 100px;
+        margin-top: 100px;
+        background: url('images/message1.svg');
         width: 431px;
         height: 114px;
+        display: flex;
+        justify-content: center;
+        p {
+          font-family: 'Geologica';
+          font-size: 42px;
+          font-weight: 400;
+          color: black;
+          margin-left: 40px;
+          text-align: center;
+          margin-top: 34px;
+        }
       }
+     
+      div.message2 {
+        margin-left: 100px;
+        margin-top: 30px;
+        background: url('images/message2.svg');
+        width: 773px;
+        height: 229px;
+        display: flex;
+        justify-content: center;
+        p {
+          font-family: 'Geologica';
+          font-size: 42px;
+          font-weight: 400;
+          color: black;
+          margin-left: 40px;
+          text-align: left;
+          margin-top: 44px;
+        }
+      }
+      div.message3 {
+        margin-left: 130px;
+        margin-top: 30px;
+        background: url('images/message3.png');
+        width: 596px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+      }
+      div.message4 {
+        margin-left: 730px;
+        margin-top: 30px;
+        background: url('images/message4.svg');
+        width: 464px;
+        height: 114px;
+        display: flex;
+        justify-content: center;
+        p {
+          font-family: 'Geologica';
+          font-size: 42px;
+          font-weight: 400;
+          color: white;
+          text-align: left;
+          margin-top: 34px;
+        }
+      }
+      h1 {
+        font-family: 'Angry';
+        font-size: 120px;
+        color: var(--projectorange);
+        margin-left: 10px;
+      }
+     
+    }
+    
+  }
+  div.message5 {
+    background: url('images/withastar.svg');
+    height: 917px;
+    margin-top: 300px;
+    p {
+      font-family: 'Geologica';
+      font-size: 42px;
+      font-weight: 400;
+      color: black;
+      margin-left: 140px;
+      text-align: left;
+      margin-top: 300px;
+    }
+  }
+  div.chatinner2 {
+    width: 1290px;
+    div.message6 {
+        margin-left: 479px;
+        margin-top: -220px;
+        background: url('images/message6.svg');
+        width: 755px;
+        height: 231px;
+        display: flex;
+        justify-content: center;
+        p {
+          font-family: 'Geologica';
+          font-size: 42px;
+          font-weight: 400;
+          color: white;
+          text-align: left;
+          margin-top: 44px;
+        }
+    }
+    div.message7 {
+      margin-left: 984px;
+      margin-top: 30px;
+      background: url('images/message7.svg');
+      width: 250px;
+      height: 114px;
+      display: flex;
+      justify-content: center;
+      p {
+        font-family: 'Geologica';
+        font-size: 42px;
+        font-weight: 400;
+        color: white;
+        text-align: left;
+        margin-top: 34px;
+      }
+    }
+  }
+  div.footer1 {
+    background: black;
+    width: 100%;
+    height: 160px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      height: 87px;
+      margin-left: 80px;
+      margin-right: 80px;
     }
   }
 }
