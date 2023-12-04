@@ -2,10 +2,82 @@ body.index {
     background-color: black;
     display: flex;
     div.logo {
-        background-image: url(../images/gagzlogo1.svg);
+        background-image: url(images/gagzlogo1.svg);
         height: 319px;
-        width: 703px;
-        margin-left: -26px;
+        width: 676px;
         margin-top: 103px;
+        position: absolute;
+    }
+    h1 {
+        font-family: "Angry";
+        font-size: 94px;
+        color: var(--projectpurple);
+        margin-left: 729px;
+        margin-top: 152px;
+        position: absolute;
+    }
+    h1.pdd {
+        color: white;
+        margin-left: 1135px;
+    }
+    div.vrezhik1 {
+        background-image: url(images/vrezhik1.png);
+        margin-top: 300px;
+        height: 1797px;
+        width: 1440px;
+        div.lightning1 {
+            background-image: url(images/lightning1.svg);
+            height: 1100px;
+            width: 1073px;
+            margin-top: -48px;
+            margin-left: 345px;
+        }
+    }
+    div.whitelight {
+        background-image: url(images/whitelight.svg);
+        position: absolute;
+        height: 3466px;
+        width: 1695px;
+        margin-top: 1620px;
+        margin-left: -100px;
+    }
+    div.frame1 {
+        background-image: url(images/frame1.svg);
+        position: absolute;
+        height: 691px;
+        width: 963px;
+        margin-top: 1820px;
+        margin-left: 95px;
+        animation: swing 0.6s infinite alternate-reverse;
+    }
+    div.frame2 {
+        background-image: url(images/frame2.svg);
+        position: absolute;
+        height: 837px;
+        width: 1144px;
+        margin-top: 3120px;
+        margin-left: 220px;
+        animation: swing 0.6s infinite alternate-reverse;
+    }
+    div.frame3 {
+        background-image: url(images/frame3.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 650px;
+        width: 1472px;
+        margin-top: 4470px;
+        margin-left: 20px;
+        animation: swing 0.6s infinite alternate-reverse;
+    }
+    
+}
+
+
+@keyframes swing {
+    from {
+        transform: rotate(1deg);
+    }
+    to {
+        transform: rotate(-1deg);
     }
 }
