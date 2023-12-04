@@ -1,75 +1,201 @@
 body.index {
     background-color: black;
     display: flex;
+    width: 100vw;
+
     div.logo {
         background-image: url(images/gagzlogo1.svg);
-        height: 319px;
-        width: 676px;
-        margin-top: 103px;
+        width: 46.95vw;
+        height: 22.15vw;
+        max-width: 100%;
+        margin-top: 7.15vw;
         position: absolute;
     }
     h1 {
         font-family: "Angry";
         font-size: 94px;
         color: var(--projectpurple);
-        margin-left: 729px;
-        margin-top: 152px;
+        margin-left: 50.6vw;
+        margin-top: 10.55vw;
         position: absolute;
     }
     h1.pdd {
         color: white;
-        margin-left: 1135px;
+        margin-left: 78.8vw;
     }
     div.vrezhik1 {
         background-image: url(images/vrezhik1.png);
-        margin-top: 300px;
-        height: 1797px;
-        width: 1440px;
+        margin-top: 20.83vw;
+        height: 124.8vw;
+        max-width: 100%;
+        width: 100vw;
         div.lightning1 {
             background-image: url(images/lightning1.svg);
-            height: 1100px;
-            width: 1073px;
-            margin-top: -48px;
-            margin-left: 345px;
+            height: 76.38vw;
+            width: 74.5vw;
+            max-width: 100%;
+            margin-top: -3.33vw;
+            margin-left: 23.95vw;
         }
     }
     div.whitelight {
         background-image: url(images/whitelight.svg);
         position: absolute;
-        height: 3466px;
-        width: 1695px;
-        margin-top: 1620px;
-        margin-left: -100px;
+        height: 240.69vw;
+        width: 117.7vw;
+        max-width: 100%;
+        margin-top: 112.5vw;
+        p {
+            position: absolute;
+            font-family: "Geologica";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            color: black;
+        }
+        p.text1 {
+            margin-top: 29vw;
+            margin-left: 14vw;
+        }
+        p.text2 {
+            margin-top: 127vw;
+            margin-left: 38vw;
+        }
+        p.text3 {
+            margin-top: 212vw;
+            margin-left: 26vw;
+        }
+        h3 {
+            position: relative;
+            font-family: "Angry";
+            color: var(--projectorange);
+        }
+        h3.header1 {
+            font-size: 48px;
+            margin-top: 13vw;
+            margin-left: 14vw;
+        }
+        h3.header2 {
+            font-size: 48px;
+            margin-top: 86vw;
+            margin-left: 42vw;
+        }
+        h3.header3 {
+            font-size: 80px;
+            margin-top: 74vw;
+            margin-left: -6vw;
+            text-align: center;
+        }
+        h3.header4 {
+            font-size: 108px;
+            margin-top: 66vw;
+            margin-left: 44vw;
+        }
     }
     div.frame1 {
         background-image: url(images/frame1.svg);
         position: absolute;
-        height: 691px;
-        width: 963px;
+        height: 47.98vw;
+        width: 66.88vw;
+        max-width: 100%;
         margin-top: 1820px;
-        margin-left: 95px;
+        margin-left: 6.6vw;
         animation: swing 0.6s infinite alternate-reverse;
     }
     div.frame2 {
         background-image: url(images/frame2.svg);
         position: absolute;
-        height: 837px;
-        width: 1144px;
-        margin-top: 3120px;
-        margin-left: 220px;
+        height: 58.13vw;
+        width: 79.44vw;
+        max-width: 100%;
+        margin-top: 216.67vw;
+        margin-left: 15.28vw;
         animation: swing 0.6s infinite alternate-reverse;
     }
     div.frame3 {
         background-image: url(images/frame3.svg);
         background-repeat: no-repeat;
         position: absolute;
-        height: 650px;
-        width: 1472px;
-        margin-top: 4470px;
-        margin-left: 20px;
+        height: 45.14vw;
+        width: 102.22vw;
+        max-width: 100%;
+        margin-top: 310.42vw;
+        margin-left: 1.4vw;
         animation: swing 0.6s infinite alternate-reverse;
     }
-    
+    div.whitelight2 {
+        background-image: url(images/whitelight2.svg);
+        position: absolute;
+        height: 43.05vw;
+        width: 95.41vw;
+        max-width: 100%;
+        margin-top: -7vw;
+        background-repeat: no-repeat;
+        margin-left: 27vw;
+    }
+    div.frame4 {
+        background-image: url(images/frame4.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 52.1vw;
+        width: 106.8vw;
+        max-width: 100%;
+        margin-top: 371.4vw;
+        margin-left: 24vw;
+        animation: swing 0.6s infinite alternate-reverse;
+    }
+    div.vrezhik2 {
+        background-image: url(images/vrezhik2.png);
+        background-repeat: no-repeat;
+        margin-top: 12vw;
+        height: 104.58vw;
+        max-width: 100%;
+        width: 78.47vw;
+        margin-left: -22vw;
+    }
+    div.form1 {
+        position: absolute;
+        margin-top: -68vw;
+        margin-left: 34vw;
+        form {
+            div input {
+                border: 0;
+                border-bottom: 2px solid white;
+                padding: 0.4vw;
+                width: 28.2vw;
+                background: transparent;
+                font-family: "Geologica";
+                font-size: 20px;
+                outline: none;
+            }
+            div button {
+                border: none;
+                margin-top: 2vw;
+                width: 25vw;
+                height: 3.65vw;
+                background: transparent;
+                background-image: url(images/buttonsend.svg);
+                background-size: cover;
+            }
+        }
+    }
+    div.footer1 {
+        background-image: url(images/footer1.svg);
+        background-repeat: no-repeat;
+        height: 11.53vw;
+        width: 120vw;
+        margin-top: -8vw;
+        margin-left: -36vw;
+    }
+    p.text4 {
+        position: absolute;
+        font-family: "Geologica";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: -102vw;
+        margin-left: 26vw;
+    }
 }
 
 
