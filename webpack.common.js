@@ -86,7 +86,8 @@ module.exports = {
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css'
     }),
-
+    // Chunk
+    // 
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
