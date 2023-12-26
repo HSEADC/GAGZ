@@ -116,8 +116,16 @@ module.exports = {
     }),
     // Article
     new HtmlWebpackPlugin({
-      template: './src/articles/auto/firstarticle.html',
-      filename: './articles/auto/firstarticle.html',
+      template: './src/articles/auto/belts.html',
+      filename: './articles/auto/belts.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/bicycle/bicyclearticle.html',
+      filename: './articles/bicycle/bicyclearticle.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/pedestrian/sidewalk.html',
+      filename: './articles/pedestrian/sidewalk.html',
     }),
     //PDD
     new HtmlWebpackPlugin({
@@ -155,8 +163,8 @@ module.exports = {
       filename: './articles/auto.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/articles/moto.html',
-      filename: './articles/moto.html',
+      template: './src/articles/pedestrian.html',
+      filename: './articles/pedestrian.html',
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/bicycle.html',
