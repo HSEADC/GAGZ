@@ -5,65 +5,12 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заглушка</title>
+    <title>ГАГЗ</title>
 </head>
 
 <body class="index">
-  
-  <div class="background1">
-    <div class="tothemain"><a href="structure.html">На главную</a></div>
-    <div class="orangerect1"></div>
-    <div class="whiterect1">
-      <h1 class="name1">ГАГЗ</h1>
-      <h2 class="info1">Информационный ресурс об основах
-        <br>ПДД в саркастической манере</h2>
-        <div class="form1">
-          <form id="my-form" action="https://formspree.io/f/xvojdldj" method="POST">
-            <div><label>Оставьте свою почту ниже, чтобы
-              <br>получать новости о нашем проекте</label></div>
-            <div><input type="email" name="email" placeholder="Введите почту" /></div>
-            <div><button id="my-form-button">Отправить</button></div>
-            <p id="my-form-status"></p>
-          </form>
-        </div>
-      
-    </div>
-  
-   
-  </div>
-  
-  
-  <script>
-      var form = document.getElementById("my-form");
-      
-      async function handleSubmit(event) {
-        event.preventDefault();
-        var status = document.getElementById("my-form-status");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-          method: form.method,
-          body: data,
-          headers: {
-              'Accept': 'application/json'
-          }
-        }).then(response => {
-          if (response.ok) {
-            status.innerHTML = "Спасибо!";
-            form.reset()
-          } else {
-            response.json().then(data => {
-              if (Object.hasOwn(data, 'errors')) {
-                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-              } else {
-                status.innerHTML = "Упс! Возникла проблема с отправкой формы..."
-              }
-            })
-          }
-        }).catch(error => {
-          status.innerHTML = "Упс! Возникла проблема с отправкой формы..."
-        });
-      }
-      form.addEventListener("submit", handleSubmit)
-  </script>
 </body>
+  <a href="../articles/auto/belts.html">Ремни безопасности</a>
+  <a href="../articles/bicycle/bicyclearticle.html">Велосипеды</a>
+  <a href="../articles/pedestrian/sidewalk.html">Пешеходам</a>
 </html>
