@@ -241,6 +241,50 @@
             }
         }
     }
+    div.footer {
+        max-width: 100%;
+        width: 93.8vw;
+        height: 12vw;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        div.logo2 {
+            max-width: 100%;
+            width: 11vw;
+            height: 8vw;
+            background-image: url(images/logo2.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 3vw;
+            p {
+                font-family: 'Geologica';
+                font-size: 1vw;
+                color: var(--projectorange);
+                margin-top: 5.5vw;
+            }
+        }
+        div.vk {
+            max-width: 100%;
+            width: 5vw;
+            height: 5vw;
+            background-image: url(images/vk1.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 3vw;
+            margin-left: 60vw;
+        }
+        div.tg {
+            max-width: 100%;
+            width: 5vw;
+            height: 5vw;
+            background-image: url(images/tg1.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 3vw;
+            margin-right: 2vw;
+        }
+    }
    
   }
 }
