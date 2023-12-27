@@ -1,4 +1,4 @@
-  body.sidewalk {
+body.sidewalk {
     background-color: black;
     display: flex;
     width: 100vw;
@@ -54,7 +54,7 @@
             div.whitebackground {
                 max-width: 100%;
                 width: 93.8vw;
-                height: 242vw;
+                height: 230vw;
                 margin-top: -1vw;
                 background: white;
                 div.rect1 {
@@ -129,7 +129,7 @@
                     max-width: 100%;
                     width: 46.25vw;
                     height: 38.6vw;
-                    background-image: url(images/pic1.png);
+                    background-image: url(images/pic3.png);
                     margin-left: 1.5vw;
                     background-size: cover;
                 }
@@ -177,7 +177,7 @@
                 align-items: center;
                 margin-top: 2.5vw;
                 div.pic2 {
-                    background-image: url(images/pic2.png);
+                    background-image: url(images/pic4.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                     max-width: 100%;
@@ -199,6 +199,9 @@
                 }
                 span.bold {
                     font-weight: 700;
+                }
+                span.colortext {
+                    color: var(--projectorange);
                 }
             }
             div.rect5 {
@@ -237,6 +240,8 @@
                                 }
                             }
                         }
+                        
+                    
                 }
             }
         }
