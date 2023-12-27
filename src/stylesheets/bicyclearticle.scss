@@ -1,4 +1,42 @@
-body.bicyclearticle {
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    body.bicyclearticle {
+        div.all {
+            article {
+                
+                div.whitebackground {
+                    height: fit-content;
+                    div.rect2 {
+                        height: 158vw;
+                        flex-direction: column-reverse;
+                        div.rect3 {
+                            width: 93.8vw;
+                            height: 77.2vw;
+                            margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+                            p {
+                                font-size: 3vw;
+                                padding: 10vw 10vw 10vw 10vw;
+                            }
+                        }
+                        div.pic3 {
+                            width: 93.8vw;
+                            height: 77.2vw;
+                            margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+                        }
+                    }
+                    div.text2 {
+                        p {
+                            column-count: 1;
+                            font-size: 3vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+  
+  body.bicyclearticle {
     background-color: black;
     display: flex;
     width: 100vw;
@@ -55,9 +93,10 @@ body.bicyclearticle {
             div.whitebackground {
                 max-width: 100%;
                 width: 93.8vw;
-                height: 220vw;
+                height: fit-content;
                 margin-top: -1vw;
                 background: white;
+                display: flexbox;
                 div.rect1 {
                     background-color: black;
                     max-width: 100%;

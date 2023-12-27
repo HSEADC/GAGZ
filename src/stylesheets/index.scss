@@ -1,0 +1,167 @@
+body.index {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    margin-top: 2vw;
+    div.all {
+        margin-left: 3vw;
+        margin-top: 1.5vw;
+        div.menufull {
+            margin-left: 2vw;
+            background-color: black;
+            div.bar {
+                max-width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                div.cornerlogo {
+                    background-image: url(images/gagz-logo.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    max-width: 100%;
+                    width: 8.33vw;
+                    height: 2.33vw;
+                    margin-left: -1.5vw;
+                }
+                
+            }
+            div.bar > * {
+                h4 {
+                    font-family: "Angry";
+                    font-size: 2.5vw;
+                    margin-left: 15vw;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                h4:hover {
+                    color: var(--projectorange);
+                    a {
+                        text-decoration: none;
+                        color: var(--projectorange);
+                    }
+                }
+            }
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 4.5vw;
+                color: white;
+                margin-left: 4vw;
+                margin-top: 3.5vw;
+                text-align: left;
+            }
+            h2 {
+                font-family: 'Angry';
+                font-size: 2.8vw;
+                color: var(--projectorange);
+                margin-left: 4vw;
+                margin-top: 1vw;
+                text-align: left;
+            }
+            div.vrezh1 {
+                background-image: url(images/voobsche.png);
+                max-width: 100%;
+                width: 37.3vw;
+                height: 33vw;
+                background-repeat: no-repeat;
+                background-size: contain;
+                float: right;
+                margin-top: -8vw;
+                z-index: 999;
+            }
+            div.pic7 {
+                background-image: url(images/pic7.png);
+                max-width: 100%;
+                width: 61vw;
+                height: 16vw;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-top: 3.5vw;
+                margin-left: 4vw;
+                z-index: 997;
+            }
+            div.tags2 {
+                max-width: 100%;
+                width: 55vw;
+                height: 4vw;
+                margin-left: 4vw;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                div.tag1 {
+                    background-image: url(images/tag1.svg);
+                    max-width: 100%;
+                    width: 9vw;
+                    height: 4vw;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-top: -3.5vw;
+                    p {
+                        font-family: 'Geologica';
+                        font-size: 2vw;
+                        color: white;
+                        text-align: center;
+                        padding: 1vw 1vw 1vw 1vw;
+                    }
+                }
+                div.tag2 {
+                    background-image: url(images/tag2.svg);
+                    max-width: 100%;
+                    width: 22.5vw;
+                    height: 4vw;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-top: -3.5vw;
+                    p {
+                        font-family: 'Geologica';
+                        font-size: 2vw;
+                        color: white;
+                        text-align: center;
+                        padding: 1vw 1vw 1vw 1vw;
+                    }
+                }
+                div.tag3 {
+                    background-image: url(images/tag3.svg);
+                    max-width: 100%;
+                    width: 21vw;
+                    height: 4vw;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-top: -3.5vw;
+                    a {
+                        text-decoration: none;
+                        p {
+                            font-family: 'Geologica';
+                            font-size: 2vw;
+                            color: white;
+                            text-align: center;
+                            margin-left: -1vw;
+                            padding: 1vw 1vw 1vw 1vw;
+                        }
+                    }
+                }
+            }
+            div.white {
+                background-color: white;
+                max-width: 100%;
+                width: 93.8vw;
+                height: fit-content;
+                display: flexbox;
+                h1 {
+                    font-family: 'Angry';
+                    font-size: 4.5vw;
+                    color: black;
+                    margin-left: 4vw;
+                    margin-top: 5vw;
+                    text-align: left;
+                }
+            }
+        }
+        
+    }
+}
