@@ -54,7 +54,7 @@
             div.whitebackground {
                 max-width: 100%;
                 width: 93.8vw;
-                height: 265vw;
+                height: 242vw;
                 margin-top: -1vw;
                 background: white;
                 div.rect1 {
@@ -171,14 +171,73 @@
             div.rect4 {
                 max-width: 100%;
                 width: 100vw;
-                height: 37.5vw;
+                height: 38vw;
                 background-color: black;
                 display: flex;
                 align-items: center;
                 margin-top: 2.5vw;
+                div.pic2 {
+                    background-image: url(images/pic2.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    max-width: 100%;
+                    width: 100vw;
+                    height: 35.5vw;
+                }
+            }
+            div.text2 {
+                max-width: 100%;
+                width: 90vw;
+                p {
+                    column-count: 2;
+                    font-family: 'Geologica';
+                    font-size: 1.5vw;
+                    color: black;
+                    padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+                    margin-top: 1.5vw;
+                    margin-left: 1.5vw;
+                }
+                span.bold {
+                    font-weight: 700;
+                }
+            }
+            div.rect5 {
+                max-width: 100%;
+                width: 100vw;
+                height: 40vw;
+                background-color: black;
+                margin-top: 4vw;
+                display: flex;
+                justify-content: center;
+                div.rect6 {
+                    max-width: 100%;
+                    width: 93.8vw;
+                    height: 30vw;
+                    background-color: white;
+                    margin-top: 5vw;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    div.rect7 {
+                        background-color: black;
+                        max-width: 100%;
+                        width: 96vw;
+                        height: 10vw;
+                        border-radius: 1vw;
+                        margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+                        h1 {
+                            font-family: 'Angry';
+                            font-size: 4vw;
+                            color: white;
+                            padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+                            span.colortext {
+                                color: var(--projectorange);
+                            }
+                    }
+                }
             }
         }
     }
    
   }
- 
+}
