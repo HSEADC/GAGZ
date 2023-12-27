@@ -14,7 +14,8 @@ body.bicyclearticle {
                 align-content: center;
                 div.cornerlogo {
                     background-image: url(images/gagz-logo.svg);
-                    background-size: cover;
+                    background-size: contain;
+                    background-repeat: no-repeat;
                     max-width: 100%;
                     width: 8.33vw;
                     height: 2.33vw;
