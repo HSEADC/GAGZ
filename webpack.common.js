@@ -148,6 +148,10 @@ module.exports = {
       template: './src/pdd/pedestrianpdd/rulesforped.html',
       filename: './pdd/pedestrianpdd/rulesforped.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pdd/otherpdd/temporary.html',
+      filename: './pdd/otherpdd/temporary.html',
+    }),
     //Education
     new HtmlWebpackPlugin({
       template: './src/education/flipcards.html',

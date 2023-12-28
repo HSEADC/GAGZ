@@ -1,0 +1,204 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    body.temporary {
+        div.all {
+            article { 
+                div.whitebackground {
+                    height: fit-content;
+                    div.buttons {
+                        height: 150vw;
+                    }
+                }
+            }
+        }
+    }
+}
+                    
+                    
+body.temporary {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    margin-top: 2vw;
+    div.all {
+        margin-left: 3vw;
+        div.menufull {
+            margin-left: 2vw;
+            max-width: 100%;
+            width: 92vw;
+            background-color: black;
+            div.bar {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                div.cornerlogo {
+                    background-image: url(images/gagz-logo.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    max-width: 100%;
+                    width: 8.33vw;
+                    height: 2.33vw;
+                }
+                div.triangle {
+                    background-image: url(images/triangle1.svg);
+                    background-size: contain;
+                    max-width: 100%;
+                    width: 2.2vw;
+                    height: 2vw;
+                    background-repeat: no-repeat;
+                    margin-top: 2vw;
+                }
+            }
+            div.bar > * {
+                h4 {
+                    font-family: "Angry";
+                    font-size: 2.5vw;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                h4.rules {
+                    margin-right: 1.5vw;
+                }
+                h4:hover {
+                    color: var(--projectorange);
+                    a {
+                        text-decoration: none;
+                        color: var(--projectorange);
+                    }
+                }
+            }
+        }
+        article {
+            display: flex;
+            justify-content: center;
+            div.whitebackground {
+                max-width: 100%;
+                width: 93.8vw;
+                height: fit-content;
+                margin-top: -1vw;
+                margin-left: -2vw;
+                background: white;
+                display: flexbox;
+                flex-direction: column;
+                div.rect1 {
+                    background-color: black;
+                    max-width: 100%;
+                    width: 92vw;
+                    height: 7vw;
+                    margin-top: 2vw;
+                    margin-left: 2vw;
+                    h1 {
+                        font-family: 'Angry';
+                        font-size: 4vw;
+                        color: white;
+                        padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+                        span.colortext {
+                            color: var(--projectorange);
+                        }
+                    }
+                }
+                div.buttons {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    max-width: 100%;
+                    width: 100vw;
+                    margin-top: 10vw;
+                    a {
+                        text-decoration: none;
+                        display: flex;
+                        div.block1 {
+                            background-image: url(images/block1.svg);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            max-width: 100%;
+                            width: 85vw;
+                            height: 11.2vw;
+                            margin-left: 5vw;
+                            p {
+                                font-family: 'Geologica';
+                                font-size: 2vw;
+                                color: white;
+                                text-align: center;
+                                font-weight: 400;
+                                margin-top: 4.6vw;
+                            }
+                        }
+                    }
+                    a {
+                        text-decoration: none;
+                        display: flex;
+                        div.block2 {
+                            background-image: url(images/block2.svg);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            max-width: 100%;
+                            width: 85vw;
+                            height: 11.2vw;
+                            margin-left: 5vw;
+                            margin-top: 2vw;
+                            margin-bottom: 10vw;
+                            p {
+                                font-family: 'Geologica';
+                                font-size: 2vw;
+                                color: white;
+                                text-align: center;
+                                font-weight: 400;
+                                margin-top: 4.6vw;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        div.footer {
+            max-width: 100%;
+            width: 93.8vw;
+            height: 12vw;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            div.logo2 {
+                max-width: 100%;
+                width: 11vw;
+                height: 8vw;
+                background-image: url(images/logo2.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-left: 1vw;
+                p {
+                    font-family: 'Geologica';
+                    font-size: 1vw;
+                    color: var(--projectorange);
+                    margin-top: 5.5vw;
+                }
+            }
+            div.vk {
+                max-width: 100%;
+                width: 5vw;
+                height: 5vw;
+                background-image: url(images/vk1.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-left: 60vw;
+            }
+            div.tg {
+                max-width: 100%;
+                width: 5vw;
+                height: 5vw;
+                background-image: url(images/tg1.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-right: 2vw;
+            }
+        }
+        
+    }
+}
