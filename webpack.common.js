@@ -95,6 +95,10 @@ module.exports = {
     }),
     // Section
     new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html',
+    }),
+    new HtmlWebpackPlugin({
       template: './src/pdd.html',
       filename: './pdd.html',
     }),

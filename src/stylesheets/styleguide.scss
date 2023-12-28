@@ -1,0 +1,333 @@
+body.styleguide {
+    width: 100vw;
+    height: fit-content;
+    background-color: black;
+    div.full {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100%;
+        width: 100vw;
+        overflow: hidden;
+        div.grad {
+            background-image: url(images/grad.png);
+            max-width: 100%;
+            width: 100vw;
+            height: 65vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div.menu {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-top: 3vw;
+                max-width: 100%;
+                width: 90vw;
+                p {
+                    font-family: 'Geologica';
+                    font-size: 1.5vw;
+                    font-weight: 400;
+                    color: white;
+                }
+            }
+            div.logo {
+                background-image: url(images/gagz.svg);
+                max-width: 100%;
+                width: 40vw;
+                height: 23vw;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-top: 14vw;
+            }
+        }
+        div.brand {
+            display: flex;
+
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw;
+            }
+            div.sem {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 28vw;
+                margin-top: 8vw;
+                p {
+                    font-family: 'Geologica';
+                    font-size: 3.7vw;
+                    font-weight: 400;
+                    color: white;
+                    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+                    span.color {
+                        color: black;
+                    }
+                }
+            }
+            div.col {
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                width: 100vw;
+                div.column {
+                    display: flex;
+                    margin-top: 50vw;
+                    h2 {
+                        font-family: 'Angry';
+                        font-size: 3vw;
+                        color: var(--projectorange); 
+                        text-align: left;
+                        margin-left: -30vw;
+                    }
+                    p {
+                        font-family: 'Geologica';
+                        font-size: 2vw;
+                        font-weight: 400;
+                        color: white;
+                        text-align: left;
+                        margin-top: 4vw;
+                        margin-left: -15vw;
+                    }
+                    
+                    }
+                }
+                div.column2 {
+                    display: flex;
+                    margin-top: 50vw;
+                    max-width: 100%;
+                    margin-top: 4vw;
+                    h2 {
+                        font-family: 'Angry';
+                        font-size: 3vw;
+                        color: var(--projectorange); 
+                        text-align: left;
+                        margin-left: -31vw;
+                    }
+                    p {
+                        font-family: 'Geologica';
+                        font-size: 2vw;
+                        font-weight: 400;
+                        color: white;
+                        text-align: left;
+                        margin-top: 4vw;
+                        margin-left: -18.2vw;
+
+                    }
+            }
+            
+            
+        }
+        div.iden {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: 20vw;
+            }
+            h2 {
+                font-family: 'Angry';
+                font-size: 1.5vw;
+                color: white;
+                margin-left: 5vw; 
+            }
+            p {
+                font-family: 'Geologica';
+                font-size: 2vw;
+                font-weight: 400;
+                color: white;
+                text-align: left;
+                margin-left: 5vw;
+                margin-top: 1.7vw;
+            }
+        }
+        div.light1 {
+            background-image: url(images/light1.svg);
+            max-width: 100%;
+            width: 100vw;
+            height: 63vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-left: 12vw;
+            margin-top: -30vw;
+        }
+        div.logo3 {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: 20vw;
+            }  
+            div.logo4 {
+                background-image: url(images/logo4.svg);
+                max-width: 100%;
+                width: 90vw;
+                height: 34vw;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 15vw;
+                margin-top: 15vw;
+                h2 {
+                    font-family: 'Angry';
+                    font-size: 3vw;
+                    color: var(--projectorange);
+                    margin-left: 48vw; 
+                    margin-top: 5vw;
+                }
+                p {
+                    font-family: 'Geologica';
+                    font-size: 2vw;
+                    font-weight: 400;
+                    color: white;
+                    text-align: left;
+                    margin-left: 48vw;
+                    margin-top: 1.7vw;
+                }
+            }
+        }
+        div.pall {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: 20vw;
+            }  
+            div.pall1 {
+                display: flex;
+                flex-direction: row;
+                p {
+                    font-family: 'Geologica';
+                    font-size: 2vw;
+                    font-weight: 400;
+                    color: white;
+                    text-align: left;
+                    margin-top: 23vw; 
+                    margin-left: 13vw; 
+                }
+                div.pall2 {
+                    background-image: url(images/pall2.svg);
+                    max-width: 100%;
+                    width: 60vw;
+                    height: 60vw;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+        div.typo1 {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: 20vw;
+            }
+            div.typo {
+                background-image: url(images/typo.svg);
+                max-width: 100%;
+                width: 57vw;
+                height: 60vw;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-top: 10vw;
+                margin-left: 5vw;
+            }
+        }
+        div.tone {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: -10vw;
+            }
+            p {
+                font-family: 'Geologica';
+                font-size: 2vw;
+                font-weight: 400;
+                color: white;
+                text-align: left;
+                margin-top: 1.7vw; 
+                margin-left: 5vw; 
+            }
+        }
+        div.merch {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Angry';
+                font-size: 3vw;
+                color: var(--projectorange);
+                margin-left: 5vw; 
+                margin-top: 14vw;
+            }
+            img {
+                max-width: 100%;
+                width: 100vw;
+                height: auto;  
+            }
+        }
+        div.footer {
+            max-width: 100%;
+            width: 93.8vw;
+            height: 12vw;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            div.logo2 {
+                max-width: 100%;
+                width: 11vw;
+                height: 8vw;
+                background-image: url(images/logo2.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-left: 5vw;
+                p {
+                    font-family: 'Geologica';
+                    font-size: 1vw;
+                    color: var(--projectorange);
+                    margin-top: 5.5vw;
+                }
+            }
+            div.vk {
+                max-width: 100%;
+                width: 5vw;
+                height: 5vw;
+                background-image: url(images/vk1.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-left: 60vw;
+            }
+            div.tg {
+                max-width: 100%;
+                width: 5vw;
+                height: 5vw;
+                background-image: url(images/tg1.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 3vw;
+                margin-right: 2vw;
+            }
+        }
+    }
+}
