@@ -1,0 +1,225 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    body.stop {
+        div.all {
+            article {
+                
+                div.whitebackground {
+                    height: fit-content;
+                    
+                  
+                        p {
+                            column-count: 1;
+                            font-size: 3vw;
+                        }
+                    
+                }
+            }
+        }
+    }
+  }
+  
+  body.stop {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    margin-top: 2vw;
+    div.all {
+        margin-left: 3vw;
+        div.menufull {
+            margin-left: 2vw;
+            max-width: 100%;
+            width: 92vw;
+            background-color: black;
+            div.bar {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                div.cornerlogo {
+                    background-image: url(images/gagz-logo.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    max-width: 100%;
+                    width: 8.33vw;
+                    height: 2.33vw;
+                }
+                div.triangle {
+                    background-image: url(images/triangle1.svg);
+                    background-size: contain;
+                    max-width: 100%;
+                    width: 2.2vw;
+                    height: 2vw;
+                    background-repeat: no-repeat;
+                    margin-top: 2vw;
+                }
+            }
+            div.bar > * {
+                h4 {
+                    font-family: "Angry";
+                    font-size: 2.5vw;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                h4.rules {
+                    margin-right: 1.5vw;
+                }
+                h4:hover {
+                    color: var(--projectorange);
+                    a {
+                        text-decoration: none;
+                        color: var(--projectorange);
+                    }
+                }
+            }
+        }
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        div.whitebackground {
+            max-width: 100%;
+            width: 93.8vw;
+            height: fit-content;
+            margin-top: -1vw;
+            margin-left: -2vw;
+            background: white;
+            display: flexbox;
+            flex-direction: column;
+            div.rect1 {
+                background-color: black;
+                max-width: 100%;
+                width: 92vw;
+                height: 10vw;
+                margin-top: 2vw;
+                margin-left: 2vw;
+                h1 {
+                    font-family: 'Angry';
+                    font-size: 4vw;
+                    color: white;
+                    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+                    span.colortext {
+                        color: var(--projectorange);
+                    }
+                }
+            }
+        }
+        div.signs {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            div.sign {
+                background-image: url(images/stop.png);
+                max-width: 100%;
+                width: 29vw;
+                height: 9.8vw;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin: 2vw 2vw 2vw 2vw;
+            }
+            
+        }
+        p {
+            font-family: 'Geologica';
+            font-size: 1.5vw;
+            color: black;
+            padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+            margin-left: 1.5vw;
+            span.bold {
+                font-weight: 700;
+            }
+            span.colortext {
+                color: var(--projectorange);
+            }
+            
+        }
+        
+    }
+    div.rect5 {
+        max-width: 100%;
+        width: 100vw;
+        height: 20vw;
+        background-color: black;
+        margin-top: 4vw;
+        display: flex;
+        justify-content: center;
+        div.rect6 {
+            max-width: 100%;
+            width: 93.8vw;
+            height: 16vw;
+            background-color: white;
+            margin-top: 0vw;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-left: -2.5vw;
+            div.rect7 {
+                background-color: black;
+                max-width: 100%;
+                width: 96vw;
+                height: 10vw;
+                border-radius: 1vw;
+                margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+                a {
+                    text-decoration: none;
+                    h1 {
+                        font-family: 'Angry';
+                        font-size: 4vw;
+                        color: white;
+                        padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+                        span.colortext {
+                            color: var(--projectorange);
+                        }
+                    }
+                }
+        }
+    }
+}
+div.footer {
+    max-width: 100%;
+    width: 93.8vw;
+    height: 12vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    div.logo2 {
+        max-width: 100%;
+        width: 11vw;
+        height: 8vw;
+        background-image: url(images/logo2.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 3vw;
+        margin-left: 1vw;
+        p {
+            font-family: 'Geologica';
+            font-size: 1vw;
+            color: var(--projectorange);
+            margin-top: 5.5vw;
+        }
+    }
+    div.vk {
+        max-width: 100%;
+        width: 5vw;
+        height: 5vw;
+        background-image: url(images/vk1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3vw;
+        margin-left: 60vw;
+    }
+    div.tg {
+        max-width: 100%;
+        width: 5vw;
+        height: 5vw;
+        background-image: url(images/tg1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3vw;
+        margin-right: 2vw;
+    }
+}
+
+}

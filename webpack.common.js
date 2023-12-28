@@ -140,6 +140,14 @@ module.exports = {
       template: './src/pdd/otherpdd.html',
       filename: './pdd/otherpdd.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pdd/autopdd/stop.html',
+      filename: './pdd/autopdd/stop.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pdd/pedestrianpdd/rulesforped.html',
+      filename: './pdd/pedestrianpdd/rulesforped.html',
+    }),
     //Education
     new HtmlWebpackPlugin({
       template: './src/education/flipcards.html',
@@ -170,6 +178,7 @@ module.exports = {
       template: './src/articles/bicycle.html',
       filename: './articles/bicycle.html',
     }),
+    
     
     // Partials
     // new HtmlWebpackPartialsPlugin([
