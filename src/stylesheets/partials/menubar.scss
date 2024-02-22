@@ -6,5 +6,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        div.Q_Logo:first-of-type {
+            display: block;
+            background: url(../../images/Q_Logo.svg);
+            height: 34px;
+            width: 120px;
+            padding: 2px 2px 2px 2px;
+        }
     }
     }
