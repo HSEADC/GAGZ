@@ -2,17 +2,24 @@ div.A_NavigationButton {
     background-color: none;
     justify-content: center;
     a {
+        text-decoration: none;
         h1 {
             font-family: 'Angry';
             font-size: 20px;
             color: white;
             padding: 8px 16px 8px 16px;
-            :hover {
-                color: var(--gvf);
-            }
-            :active {
-                color: var(--gva);
-            }
+        }
+        :hover {
+            background-clip: text;
+            background-image: var(--gvf);
+            background-size: 100%;
+            color: transparent;
+        }
+        :active {
+            background-clip: text;
+            background-image: var(--gva);
+            background-size: 100%;
+            color: transparent;
         }
     }
 }

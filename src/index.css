@@ -7,5 +7,5 @@
 @import 'stylesheets/components/atoms/A_NavigationButton.scss';
 @import 'stylesheets/components/collections/C_MenuFooter.scss';
 @import 'stylesheets/components/collections/C_MenuPieceOne.scss';
-@import 'stylesheets/components/collections/C_MenuPieceOneDesktop.scss';
+@import 'stylesheets/components/collections/C_MenuPieceOneTablet.scss';
 
