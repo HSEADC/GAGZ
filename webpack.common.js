@@ -128,7 +128,7 @@ module.exports = {
     ]),
     new HtmlWebpackPartialsPlugin([
       {
-        path: path.join(__dirname, './src/partials/menudesktop.html'),
+        path: path.join(__dirname, './src/partials/menu.html'),
         location: 'analytics',
         template_filename: '*',
         priority: 'replace'
