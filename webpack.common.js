@@ -95,10 +95,6 @@ module.exports = {
     }),
     // Section
     new HtmlWebpackPlugin({
-      template: './src/styleguide.html',
-      filename: './styleguide.html',
-    }),
-    new HtmlWebpackPlugin({
       template: './src/pdd.html',
       filename: './pdd.html',
     }),
@@ -119,84 +115,25 @@ module.exports = {
       filename: './about.html',
     }),
     // Article
-    new HtmlWebpackPlugin({
-      template: './src/articles/auto/belts.html',
-      filename: './articles/auto/belts.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/bicycle/bicyclearticle.html',
-      filename: './articles/bicycle/bicyclearticle.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/pedestrian/sidewalk.html',
-      filename: './articles/pedestrian/sidewalk.html',
-    }),
-    //PDD
-    new HtmlWebpackPlugin({
-      template: './src/pdd/autopdd.html',
-      filename: './pdd/autopdd.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pdd/pedestrianpdd.html',
-      filename: './pdd/pedestrianpdd.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pdd/otherpdd.html',
-      filename: './pdd/otherpdd.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pdd/autopdd/stop.html',
-      filename: './pdd/autopdd/stop.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pdd/pedestrianpdd/rulesforped.html',
-      filename: './pdd/pedestrianpdd/rulesforped.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pdd/otherpdd/temporary.html',
-      filename: './pdd/otherpdd/temporary.html',
-    }),
-    //Education
-    new HtmlWebpackPlugin({
-      template: './src/education/flipcards.html',
-      filename: './education/flipcards.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/education/tests.html',
-      filename: './education/tests.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/education/tickets.html',
-      filename: './education/tickets.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/education/videolessons.html',
-      filename: './education/videolessons.html',
-    }),
-     //Articles
-     new HtmlWebpackPlugin({
-      template: './src/articles/auto.html',
-      filename: './articles/auto.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/pedestrian.html',
-      filename: './articles/pedestrian.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/bicycle.html',
-      filename: './articles/bicycle.html',
-    }),
     
     
     // Partials
-    // new HtmlWebpackPartialsPlugin([
-    //   {
-    //     path: path.join(__dirname, './src/partials/analytics.html'),
-    //     location: 'analytics',
-    //     template_filename: '*',
-    //     priority: 'replace'
-    //   }
-    // ])
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/analytics.html'),
+        location: 'analytics',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/menubar.html'),
+        location: 'menubar',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ])
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]

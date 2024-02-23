@@ -1,0 +1,92 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.W_MenuBar {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1400px;
+        margin-top: 32px;
+        div.Q_Logo {
+            background: url(images/Q_Logo.svg);
+            height: 50px;
+            width: 136px;
+        }
+        span > * {
+            display: none;
+        }
+        div.C_MenuPieceOneTablet {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.W_MenuBar {
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+        margin-top: 32px;
+        div.Q_Logo:nth-child(1) {
+            background: url(images/Q_Logo.svg);
+            height: 50px;
+            width: 136px;
+        }
+        div.C_MenuPieceOne {
+            display: none;
+        }
+        div.W_MenuPieceTwo {
+            display: none;
+        }
+        span {
+            display: flex;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.W_MenuBar {
+        div.W_MenuPieceTwo {
+            display: none;
+        }
+        div.M_SearchBar {
+            display: none;
+        }
+        div.C_MenuPieceOne {
+            display: none;
+        }
+        div.Q_Logo:nth-child(1) {
+            background: url(images/Q_Logo.svg);
+            height: 50px;
+            width: 136px;
+            margin-left: 236px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.W_MenuBar {
+        div.W_MenuPieceTwo {
+            display: none;
+        }
+        div.M_SearchBar {
+            display: none;
+        }
+        div.C_MenuPieceOne {
+            display: none;
+        }
+        div.Q_Logo:nth-child(1) {
+            background: url(images/Q_Logo.svg);
+            height: 50px;
+            width: 136px;
+            margin-left: 80px;
+        }
+    }
+}

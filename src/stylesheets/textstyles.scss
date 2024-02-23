@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1440px) {
+    /* Desktop */
+    h1 {
+        font-family: 'Angry';
+        font-size: 56px;
+        color: white;
+    }
+    h2 {
+        font-family: 'Angry';
+        font-size: 32px;
+        color: white;
+    }
+    h3 {
+        font-family: 'Geologica';
+        font-size: 24px;
+        font-weight: 500;
+        color: black;
+    }
+    h4 {
+        font-family: 'Geologica';
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+    }
+    h5 {
+        font-family: 'Geologica';
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+    }
+    h6 {
+        font-family: 'Geologica';
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+    }
+    p {
+        font-family: 'Geologica';
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+    }
+}
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+}
