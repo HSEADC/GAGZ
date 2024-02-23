@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.W_CardSpecial {
+        display: block;
+        margin-top: 48px;
+        div.A_PictureMain {
+            background: url(images/A_PictureMain.png);
+        }
+        div.M_HeaderSpecialCard {
+            margin-left: 48px;
+            margin-top: -408px;
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    
+}
+    

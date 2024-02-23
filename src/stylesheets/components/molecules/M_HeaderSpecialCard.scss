@@ -1,0 +1,25 @@
+div.M_HeaderSpecialCard {
+    background: var(--gh);
+    height: 154px;
+    width: 368px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div.A_HeaderSpecialCard {
+        background: var(--rm);
+        height: 136px;
+        width: 352px;
+        border-radius: 16px;
+        h2 {
+            color: black;
+            padding: 16px;
+            span {
+                background-clip: text;
+                background-image: var(--gh);
+                background-size: 100%;
+                color: transparent;
+            }
+        }
+    }
+}

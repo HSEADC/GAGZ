@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1439px) {
     /* Desktop */
     div.W_MenuBar {
         background: none;
@@ -58,10 +58,14 @@
         div.M_SearchBar {
             display: none;
         }
+        div.C_MenuPieceOne {
+            display: none;
+        }
         div.Q_Logo:nth-child(1) {
             background: url(images/Q_Logo.svg);
             height: 50px;
             width: 136px;
+            margin-left: 236px;
         }
     }
 }
@@ -75,10 +79,14 @@
         div.M_SearchBar {
             display: none;
         }
+        div.C_MenuPieceOne {
+            display: none;
+        }
         div.Q_Logo:nth-child(1) {
             background: url(images/Q_Logo.svg);
             height: 50px;
             width: 136px;
+            margin-left: 80px;
         }
     }
 }
