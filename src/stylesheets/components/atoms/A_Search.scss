@@ -1,42 +1,108 @@
-div.A_Search {
-    background-color: var(--rm);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    form {
-        width: 280px;
-        height: 34px;
-        border: 0;
-        box-sizing: border-box;
-        input {
-            position: absolute;
-            margin-top: 4px;
-            margin-left: 8px;
-            font-size: 16px;
-            font-family: 'Geologica';
-            font-weight: 400;
-            background: none;
-            width: auto;
-            height: 30px;
-            border: none;
-            outline: none;
-            &::-webkit-search-cancel-button {
-                -webkit-appearance: none;
-                background-image: url(images/Q_Close.svg);
-                height: 24px;
-                width: 24px;
-                margin-left: .4em;
-                cursor: pointer;
+@media only screen and (min-width: 1440px) {
+    /* Desktop */
+    div.A_Search {
+        background-color: var(--rm);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        form {
+            width: 280px;
+            height: 34px;
+            border: 0;
+            box-sizing: border-box;
+            input {
+                position: absolute;
+                margin-top: 4px;
+                margin-left: 8px;
+                font-size: 16px;
+                font-family: 'Geologica';
+                font-weight: 400;
+                background: none;
+                width: 264px;
+                height: 30px;
+                border: none;
+                outline: none;
+                &::-webkit-search-cancel-button {
+                    -webkit-appearance: none;
+                    background-image: url(images/Q_Close.svg);
+                    height: 24px;
+                    width: 24px;
+                    margin-left: .4em;
+                    cursor: pointer;
+                }
             }
         }
-    }
-    div.Q_IconSearch {
-        background-image: url(images/Q_IconSearch.svg);
-        width: 24px;
-        height: 24px;
-        background-repeat: no-repeat;
-        margin-left: 8px;
-        margin-top: 6px;
-        margin-bottom: 8px;
+        div.Q_IconSearch {
+            background-image: url(images/Q_IconSearch.svg);
+            width: 24px;
+            height: 24px;
+            background-repeat: no-repeat;
+            margin-left: 8px;
+            margin-top: 6px;
+            margin-bottom: 8px;
+        }
     }
 }
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.A_Search {
+        background-color: var(--rm);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        form {
+            width: 880px;
+            height: 34px;
+            border: 0;
+            box-sizing: border-box;
+            input {
+                position: absolute;
+                margin-top: 4px;
+                margin-left: 8px;
+                font-size: 16px;
+                font-family: 'Geologica';
+                font-weight: 400;
+                background: none;
+                width: 864px;
+                height: 30px;
+                border: none;
+                outline: none;
+                &::-webkit-search-cancel-button {
+                    -webkit-appearance: none;
+                    background-image: url(images/Q_Close.svg);
+                    height: 24px;
+                    width: 24px;
+                    margin-left: .4em;
+                    cursor: pointer;
+                }
+            }
+        }
+        div.Q_IconSearch {
+            background-image: url(images/Q_IconSearch.svg);
+            width: 24px;
+            height: 24px;
+            background-repeat: no-repeat;
+            margin-left: 8px;
+            margin-top: 6px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.A_Search {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.A_Search {
+        display: none;
+    }
+}
+    
+    

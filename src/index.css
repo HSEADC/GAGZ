@@ -6,7 +6,10 @@
 @import 'stylesheets/partials/menubar.scss';
 @import 'stylesheets/components/atoms/A_NavigationButton.scss';
 @import 'stylesheets/components/atoms/A_Search.scss';
+@import 'stylesheets/components/atoms/A_SearchButton.scss';
+@import 'stylesheets/components/molecules/M_SearchBar.scss';
 @import 'stylesheets/components/collections/C_MenuFooter.scss';
 @import 'stylesheets/components/collections/C_MenuPieceOne.scss';
 @import 'stylesheets/components/collections/C_MenuPieceOneTablet.scss';
+@import 'Stylesheets/components/wrappers/W_MenuPieceTwo.scss';
 
