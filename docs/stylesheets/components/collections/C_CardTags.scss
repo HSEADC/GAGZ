@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.C_CardTags {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 24px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.C_CardTags {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 24px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.C_CardTags {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 12px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.C_CardTags {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 12px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+}
