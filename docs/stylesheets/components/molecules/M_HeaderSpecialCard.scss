@@ -1,0 +1,123 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.M_HeaderSpecialCard {
+        background: var(--gh);
+        height: 154px;
+        width: 368px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div.A_HeaderSpecialCard {
+            background: var(--rm);
+            height: 136px;
+            width: 352px;
+            border-radius: 16px;
+            h2 {
+                color: black;
+                padding: 16px;
+                span {
+                    background-clip: text;
+                    background-image: var(--gh);
+                    background-size: 100%;
+                    color: transparent;
+                }
+            }
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.M_HeaderSpecialCard {
+        background: var(--gh);
+        height: 146px;
+        width: 360px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div.A_HeaderSpecialCard {
+            background: var(--rm);
+            height: 136px;
+            width: 352px;
+            border-radius: 16px;
+            h2 {
+                font-family: 'Angry';
+                font-size: 32px;
+                color: black;
+                padding: 16px;
+                span {
+                    background-clip: text;
+                    background-image: var(--gh);
+                    background-size: 100%;
+                    color: transparent;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.M_HeaderSpecialCard {
+        background: var(--gh);
+        height: 94px;
+        width: 200px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div.A_HeaderSpecialCard {
+            background: var(--rm);
+            height: 86px;
+            width: 192px;
+            border-radius: 16px;
+            h2 {
+                font-family: 'Angry';
+                font-size: 16px;
+                color: black;
+                padding: 16px;
+                span {
+                    background-clip: text;
+                    background-image: var(--gh);
+                    background-size: 100%;
+                    color: transparent;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.M_HeaderSpecialCard {
+        background: var(--gh);
+        height: 44px;
+        width: 112px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div.A_HeaderSpecialCard {
+            background: var(--rm);
+            height: 40px;
+            width: 108px;
+            border-radius: 8px;
+            h2 {
+                font-family: 'Angry';
+                font-size: 8px;
+                color: black;
+                padding: 8px;
+                span {
+                    background-clip: text;
+                    background-image: var(--gh);
+                    background-size: 100%;
+                    color: transparent;
+                }
+            }
+        }
+    }
+}
+    
