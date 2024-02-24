@@ -1,32 +1,32 @@
 @media only screen and (min-width: 1439px) {
     /* Desktop */
-    div.A_PictureMain {
-        height: 456px;
-        width: 1292px;
+    div.A_UnitTitle {
+        align-items: center left;
+        margin-top: 16px;
     }
 }
   
   
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     /* Tablet */
-    div.A_PictureMain {
-        height: 336px;
-        width: 974px;
+    div.A_UnitTitle {
+        align-items: center left;
+        margin-top: 16px;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Tablet Portrait */
-    div.A_PictureMain {
-        height: 234px;
-        width: 650px;
+    div.A_UnitTitle {
+        align-items: center left;
+        margin-top: 8px;
     }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
     /* Mobile */
-    div.A_PictureMain {
-        height: 118px;
-        width: 312px;
+    div.A_UnitTitle {
+        align-items: center left;
+        margin-top: 8px;
     }
 }
