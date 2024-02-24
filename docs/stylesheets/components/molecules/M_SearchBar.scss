@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.M_SearchBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.M_SearchBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        width: 1000px;
+    }
+}
+
