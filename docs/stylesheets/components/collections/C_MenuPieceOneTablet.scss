@@ -1,0 +1,40 @@
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.C_MenuPieceOneTablet {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top left;
+        width: 582px;
+        margin-left: 280px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.C_MenuPieceOneTablet {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top left;
+        width: 582px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.C_MenuPieceOneTablet {
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: top left;
+        width: 288px;
+        margin-left: 0;
+    }
+}
+    
