@@ -1,0 +1,100 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.O_CardRulesEducation {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 408px;
+        height: max-content;
+        background: var(--rm);
+        border-radius: 24px;
+        div.Q_ImageCardsR, div.Q_ImageCardsS {
+            width: 408px;
+            height: 260px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        h4 {
+            margin-top: 16px;
+            margin-left: 32px;
+            width: 300px;  
+            margin-bottom: 16px;
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.O_CardRulesEducation {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 408px;
+        height: max-content;
+        background: var(--rm);
+        border-radius: 24px;
+        div.Q_ImageCardsR, div.Q_ImageCardsS {
+            width: 408px;
+            height: 260px;
+            background-repeat: no-repeat;
+            background-size: contain;   
+        }
+        h4 {
+            margin-top: 16px;
+            margin-left: 32px;
+            width: 300px;  
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.O_CardRulesEducation {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 280px;
+        height: max-content;
+        background: var(--rm);
+        border-radius: 24px;
+        div.Q_ImageCardsR, div.Q_ImageCardsS {
+            width: 280px;
+            height: 178px;
+            background-repeat: no-repeat;
+            background-size: contain;   
+        }
+        h4 {
+            margin-top: 16px;
+            margin-left: 16px;
+            width: 200px;  
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.O_CardRulesEducation {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 280px;
+        height: max-content;
+        background: var(--rm);
+        border-radius: 24px;
+        div.Q_ImageCardsR, div.Q_ImageCardsS {
+            width: 280px;
+            height: 178px;
+            background-repeat: no-repeat;
+            background-size: contain;   
+        }
+        h4 {
+            margin-top: 16px;
+            margin-left: 16px;
+            width: 200px; 
+            margin-bottom: 16px; 
+        }
+    }
+}

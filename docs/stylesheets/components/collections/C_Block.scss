@@ -1,0 +1,341 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.C_Block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1310px;
+        margin-top: 32px;
+        :nth-child(4) {
+            display: none;
+        }
+        :nth-child(1) {
+            div.Q_ImageCards {
+                background: url(images/img6.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img4.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(2) {
+            div.Q_ImageCards {
+                background: url(images/img3.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img11.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img5.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(3) {
+            div.Q_ImageCards {
+                background: url(images/img8.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img15.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(4) {
+            div.Q_ImageCards {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img7.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.C_Block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 900px;
+        margin-top: -24px;
+        div.O_CardArticle {
+            margin-top: 48px;
+        }
+        div.O_CardRulesEducation {
+            margin-top: 48px;
+        }
+        :nth-child(1) {
+            div.Q_ImageCards {
+                background: url(images/img6.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img4.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(2) {
+            div.Q_ImageCards {
+                background: url(images/img3.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img11.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img5.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(3) {
+            div.Q_ImageCards {
+                background: url(images/img8.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img15.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(4) {
+            div.Q_ImageCards {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img7.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.C_Block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 640px;
+        margin-top: -16px;
+        div.O_CardArticle {
+            margin-top: 32px;
+        }
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+        }
+        :nth-child(1) {
+            div.Q_ImageCards {
+                background: url(images/img6.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img4.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(2) {
+            div.Q_ImageCards {
+                background: url(images/img3.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img11.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img5.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(3) {
+            div.Q_ImageCards {
+                background: url(images/img8.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img15.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(4) {
+            div.Q_ImageCards {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img7.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.C_Block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 280px;
+        margin-top: -16px;
+        div.O_CardArticle {
+            margin-top: 32px;
+        }
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+        }
+        :nth-child(1) {
+            div.Q_ImageCards {
+                background: url(images/img6.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img4.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(2) {
+            div.Q_ImageCards {
+                background: url(images/img3.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img11.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img5.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(3) {
+            div.Q_ImageCards {
+                background: url(images/img8.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img15.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        :nth-child(4) {
+            div.Q_ImageCards {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsR {
+                background: url(images/img7.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div.Q_ImageCardsS {
+                background: url(images/img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
