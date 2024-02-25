@@ -24,9 +24,12 @@
 /* organisms */
 @import 'stylesheets/components/organisms/O_CardArticle.scss';
 @import 'stylesheets/components/organisms/O_CardRulesEducation.scss';
+@import 'stylesheets/components/organisms/O_CardEducationLong.scss';
+@import 'stylesheets/components/organisms/O_CardSimple.scss';
 
 /* super-organisms */
 @import 'stylesheets/components/super-organisms/S_Unit.scss';
+@import 'stylesheets/components/super-organisms/S_UnitE.scss';
 
 /* collections */
 @import 'stylesheets/components/collections/C_MenuFooter.scss';
@@ -34,11 +37,15 @@
 @import 'stylesheets/components/collections/C_MenuPieceOneTablet.scss';
 @import 'stylesheets/components/collections/C_Block.scss';
 @import 'stylesheets/components/collections/C_CardTags.scss';
+@import 'stylesheets/components/collections/C_MiniBlockSimple.scss';
 
 
 /* wrappers */
 @import 'Stylesheets/components/wrappers/W_MenuPieceTwo.scss';
 @import 'stylesheets/components/wrappers/W_CardSpecial.scss';
 @import 'stylesheets/components/wrappers/W_QuoteWithPicture.scss';
+@import 'stylesheets/components/wrappers/W_Title.scss';
+@import 'stylesheets/components/wrappers/W_Tablet.scss';
+@import 'stylesheets/components/wrappers/W_Desktop.scss';
 
 

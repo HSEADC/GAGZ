@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.W_Title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1310px;
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.W_Title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.W_Title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 640px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.W_Title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 280px;
+    }
+}
