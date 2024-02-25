@@ -23,6 +23,7 @@
 
 /* organisms */
 @import 'stylesheets/components/organisms/O_CardArticle.scss';
+@import 'stylesheets/components/organisms/O_CardRulesEducation.scss';
 
 /* super-organisms */
 @import 'stylesheets/components/super-organisms/S_Unit.scss';
