@@ -4,7 +4,10 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/pages.scss';
 @import 'stylesheets/textstyles.scss';
+
+/* partials */
 @import 'stylesheets/partials/menubar.scss';
+@import 'stylesheets/partials/footer.scss';
 
 /* atoms */
 @import 'stylesheets/components/atoms/A_NavigationButton.scss';
@@ -47,5 +50,7 @@
 @import 'stylesheets/components/wrappers/W_Title.scss';
 @import 'stylesheets/components/wrappers/W_Tablet.scss';
 @import 'stylesheets/components/wrappers/W_Desktop.scss';
+@import 'stylesheets/components/wrappers/W_IconsFooter.scss';
+@import 'stylesheets/components/wrappers/W_FooterDescriptor.scss';
 
 

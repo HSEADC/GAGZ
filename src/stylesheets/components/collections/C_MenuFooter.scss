@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.C_MenuFooter {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+        height: 200px;
+        margin-left: 664px;
+        div.A_NavigationButton {
+            justify-content: right;
+            a {
+                h1 {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.C_MenuFooter {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+        height: 200px;
+        margin-left: 744px;
+        margin-top: -116px;
+        div.A_NavigationButton {
+            justify-content: right;
+            a {
+                h1 {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.C_MenuFooter {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+        height: 200px;
+        margin-left: 500px;
+        margin-top: -116px;
+        div.A_NavigationButton {
+            justify-content: right;
+            a {
+                h1 {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.C_MenuFooter {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+        height: 200px;
+        margin-left: 144px;
+        margin-top: 0px;
+        div.A_NavigationButton {
+            justify-content: right;
+            a {
+                h1 {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+    
