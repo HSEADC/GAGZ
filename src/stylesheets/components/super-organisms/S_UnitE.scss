@@ -1,0 +1,148 @@
+@media only screen and (min-width: 1441px) {
+    /* Desktop */
+    div.S_UnitE {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1310px;
+        margin-top: 48px;
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+            div.Q_ImageCardsE {
+                background: url(images/img10.png); 
+                width: 408px;
+                height: 260px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        div.W_Desktop {
+            div.O_CardRulesEducation {
+                margin-top: 32px;
+                div.Q_ImageCardsE {
+                    background: url(images/img16.png); 
+                    width: 408px;
+                    height: 260px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+        div.O_CardEducationLong {
+            margin-top: -312px;
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.S_UnitE {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+        margin-top: 48px;
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+            div.Q_ImageCardsE {
+                background: url(images/img10.png); 
+                width: 408px;
+                height: 260px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        div.W_Tablet {
+            div.O_CardRulesEducation {
+                margin-top: 32px;
+                div.Q_ImageCardsE {
+                    background: url(images/img16.png); 
+                    width: 408px;
+                    height: 260px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+        div.O_CardEducationLong {
+            margin-top: 32px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.S_UnitE {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 640px;
+        margin-top: 48px;
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+            div.Q_ImageCardsE {
+                background: url(images/img10.png); 
+                width: 280px;
+                height: 178px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        div.W_Tablet {
+            div.O_CardRulesEducation {
+                margin-top: 32px;
+                div.Q_ImageCardsE {
+                    background: url(images/img16.png); 
+                    width: 280px;
+                    height: 178px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+        div.O_CardEducationLong {
+            margin-top: 32px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.S_UnitE {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 280px;
+        margin-top: 24px;
+        div.O_CardRulesEducation {
+            margin-top: 32px;
+            div.Q_ImageCardsE {
+                background: url(images/img10.png); 
+                width: 280px;
+                height: 178px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        div.W_Tablet {
+            div.O_CardRulesEducation {
+                margin-top: 32px;
+                div.Q_ImageCardsE {
+                    background: url(images/img16.png); 
+                    width: 280px;
+                    height: 178px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+        div.O_CardEducationLong {
+            margin-top: 32px;
+        }
+    }
+}

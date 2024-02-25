@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.W_Tablet {
+        display: none;
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.W_Tablet {
+        display: flex;
+        width: 900px;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.W_Tablet {
+        display: flex;
+        width: 640px;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.W_Tablet {
+        display: flex;
+        width: 280px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

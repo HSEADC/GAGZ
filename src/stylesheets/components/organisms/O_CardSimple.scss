@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1439px) {
     /* Desktop */
-    div.O_CardArticle {
+    div.O_CardSimple {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -8,16 +8,12 @@
         height: max-content;
         background: var(--rm);
         border-radius: 24px;
-        div.Q_ImageCards {
-            width: 408px;
-            height: 296px;
-            background-repeat: no-repeat;
-            background-size: contain;   
-        }
+        margin-top: 32px;
         h4 {
-            margin-top: 16px;
+            margin-top: 60px;
             margin-left: 32px;
             width: 300px;  
+            margin-bottom: 60px;
         }
     }
 }
@@ -25,7 +21,7 @@
   
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     /* Tablet */
-    div.O_CardArticle {
+    div.O_CardSimple {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -33,23 +29,19 @@
         height: max-content;
         background: var(--rm);
         border-radius: 24px;
-        div.Q_ImageCards {
-            width: 408px;
-            height: 296px;
-            background-repeat: no-repeat;
-            background-size: contain;   
-        }
+        margin-top: 32px;
         h4 {
-            margin-top: 16px;
+            margin-top: 60px;
             margin-left: 32px;
             width: 300px;  
+            margin-bottom: 60px;
         }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Tablet Portrait */
-    div.O_CardArticle {
+    div.O_CardSimple {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -57,23 +49,19 @@
         height: max-content;
         background: var(--rm);
         border-radius: 24px;
-        div.Q_ImageCards {
-            width: 280px;
-            height: 204px;
-            background-repeat: no-repeat;
-            background-size: contain;   
-        }
+        margin-top: 32px;
         h4 {
-            margin-top: 16px;
-            margin-left: 16px;
-            width: 200px;  
+            margin-top: 40px;
+            margin-left: 32px;
+            width: 300px;  
+            margin-bottom: 40px;
         }
     }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
     /* Mobile */
-    div.O_CardArticle {
+    div.O_CardSimple {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -81,16 +69,12 @@
         height: max-content;
         background: var(--rm);
         border-radius: 24px;
-        div.Q_ImageCards {
-            width: 280px;
-            height: 204px;
-            background-repeat: no-repeat;
-            background-size: contain;   
-        }
+        margin-top: 32px;
         h4 {
-            margin-top: 16px;
-            margin-left: 16px;
-            width: 200px;  
+            margin-top: 52px;
+            margin-left: 32px;
+            width: 300px;  
+            margin-bottom: 52px;
         }
     }
 }
