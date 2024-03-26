@@ -2,10 +2,10 @@
     /* Desktop */
     div.O_CardArticle {
         display: flex;
-        justify-content: center;
+        justify-content: top;
         flex-direction: column;
         width: 408px;
-        height: max-content;
+        height: 448px;
         background: var(--rm);
         border-radius: 24px;
         div.Q_ImageCards {
@@ -27,10 +27,10 @@
     /* Tablet */
     div.O_CardArticle {
         display: flex;
-        justify-content: center;
+        justify-content: top;
         flex-direction: column;
         width: 408px;
-        height: max-content;
+        height: 448px;
         background: var(--rm);
         border-radius: 24px;
         div.Q_ImageCards {
@@ -51,10 +51,10 @@
     /* Tablet Portrait */
     div.O_CardArticle {
         display: flex;
-        justify-content: center;
+        justify-content: top;
         flex-direction: column;
         width: 280px;
-        height: max-content;
+        height: 308px;
         background: var(--rm);
         border-radius: 24px;
         div.Q_ImageCards {
@@ -75,10 +75,10 @@
     /* Mobile */
     div.O_CardArticle {
         display: flex;
-        justify-content: center;
+        justify-content: top;
         flex-direction: column;
         width: 280px;
-        height: max-content;
+        height: 308px;
         background: var(--rm);
         border-radius: 24px;
         div.Q_ImageCards {
