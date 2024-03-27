@@ -89,21 +89,21 @@
             justify-content: space-between;
             width: 1310px;
             margin-top: 32px;
-            :nth-child(1) {
+            &:nth-child(1) {
                 div.Q_ImageCards {
                     background: url(images/img6.png);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
             }
-            :nth-child(2) {
+            &:nth-child(2) {
                 div.Q_ImageCards {
                     background: url(images/img21.png);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
             }
-            :nth-child(3) {
+            &:nth-child(3) {
                 div.Q_ImageCards {
                     background: url(images/img22.png);
                     background-size: cover;
