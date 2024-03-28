@@ -115,7 +115,12 @@ module.exports = {
       filename: './about.html',
     }),
     // Article
-    
+
+    // Tests
+    new HtmlWebpackPlugin({
+      template: './src/tests/test1.html',
+      filename: './test1.html',
+    }),
     
     // Partials
     new HtmlWebpackPartialsPlugin([
