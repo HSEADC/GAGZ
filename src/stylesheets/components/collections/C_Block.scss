@@ -1,341 +1,949 @@
 @media only screen and (min-width: 1441px) {
-    /* Desktop */
+  /* Desktop */
+  body.index {
     div.C_Block {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 1310px;
-        margin-top: 32px;
-        :nth-child(4) {
-            display: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1310px;
+      margin-top: 32px;
+      :nth-child(4) {
+        display: none;
+      }
+      :nth-child(1) {
+        div.Q_ImageCards {
+          background: url(images/img6.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(1) {
-            div.Q_ImageCards {
-                background: url(images/img6.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img4.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsR {
+          background: url(images/img2.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(2) {
-            div.Q_ImageCards {
-                background: url(images/img3.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img11.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img5.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(3) {
-            div.Q_ImageCards {
-                background: url(images/img8.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img1.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img15.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+      }
+      :nth-child(2) {
+        div.Q_ImageCards {
+          background: url(images/img3.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(4) {
-            div.Q_ImageCards {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img7.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsR {
+          background: url(images/img11.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
+        div.Q_ImageCardsS {
+          background: url(images/img5.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      :nth-child(3) {
+        div.Q_ImageCards {
+          background: url(images/img8.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img1.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img15.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      :nth-child(4) {
+        div.Q_ImageCards {
+          background: url(images/img18.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img7.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img29.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
     }
+  }
+  body.articles {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1310px;
+      margin-top: 32px;
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
+        }
+      }
+    }
+  }
+  body.pdd {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1310px;
+      margin-top: -32px;
+      div.O_CardRulesEducation {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsR {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img2.png);
+        }
+        &.two {
+          background-image: url(images/img11.png);
+        }
+        &.three {
+          background-image: url(images/img1.png);
+        }
+        &.four {
+          background-image: url(images/img7.png);
+        }
+        &.five {
+          background-image: url(images/img14.png);
+        }
+        &.six {
+          background-image: url(images/img12.png);
+        }
+        &.seven {
+          background-image: url(images/img13.png);
+        }
+      }
+      div.Q_ImageCardsS {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.ten {
+          background-image: url(images/img4.png);
+        }
+        &.eleven {
+          background-image: url(images/img5.png);
+        }
+        &.twelve {
+          background-image: url(images/img15.png);
+        }
+        &.thirteen {
+          background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1310px;
+      margin-top: 32px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }
-  
-  
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
-    /* Tablet */
+  /* Tablet */
+  body.index {
     div.C_Block {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 900px;
-        margin-top: -24px;
-        div.O_CardArticle {
-            margin-top: 48px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 900px;
+      margin-top: -24px;
+      div.O_CardArticle {
+        margin-top: 48px;
+      }
+      div.O_CardRulesEducation {
+        margin-top: 48px;
+      }
+      :nth-child(1) {
+        div.Q_ImageCards {
+          background: url(images/img6.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        div.O_CardRulesEducation {
-            margin-top: 48px;
+        div.Q_ImageCardsR {
+          background: url(images/img2.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(1) {
-            div.Q_ImageCards {
-                background: url(images/img6.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img4.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(2) {
-            div.Q_ImageCards {
-                background: url(images/img3.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img11.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img5.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+      }
+      :nth-child(2) {
+        div.Q_ImageCards {
+          background: url(images/img3.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(3) {
-            div.Q_ImageCards {
-                background: url(images/img8.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img1.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img15.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsR {
+          background: url(images/img11.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(4) {
-            div.Q_ImageCards {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img7.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img5.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
+      }
+      :nth-child(3) {
+        div.Q_ImageCards {
+          background: url(images/img8.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img1.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img15.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      :nth-child(4) {
+        div.Q_ImageCards {
+          background: url(images/img18.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img7.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img29.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
     }
+  }
+  body.articles {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 900px;
+      margin-top: -24px;
+      div.O_CardArticle {
+        margin-top: 48px;
+      }
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
+        }
+      }
+    }
+  }
+  body.pdd {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 900px;
+      margin-top: -24px;
+      div.O_CardRulesEducation {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsR {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img2.png);
+        }
+        &.two {
+          background-image: url(images/img11.png);
+        }
+        &.three {
+          background-image: url(images/img1.png);
+        }
+        &.four {
+          background-image: url(images/img7.png);
+        }
+        &.five {
+          background-image: url(images/img14.png);
+        }
+        &.six {
+          background-image: url(images/img12.png);
+        }
+        &.seven {
+          background-image: url(images/img13.png);
+        }
+      }
+      div.Q_ImageCardsS {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.ten {
+          background-image: url(images/img4.png);
+        }
+        &.eleven {
+          background-image: url(images/img5.png);
+        }
+        &.twelve {
+          background-image: url(images/img15.png);
+        }
+        &.thirteen {
+          background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 900px;
+      margin-top: -24px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Tablet Portrait */
+  /* Tablet Portrait */
+  body.index {
     div.C_Block {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 640px;
-        margin-top: -16px;
-        div.O_CardArticle {
-            margin-top: 32px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 640px;
+      margin-top: -16px;
+      div.O_CardArticle {
+        margin-top: 32px;
+      }
+      div.O_CardRulesEducation {
+        margin-top: 32px;
+      }
+      :nth-child(1) {
+        div.Q_ImageCards {
+          background: url(images/img6.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        div.O_CardRulesEducation {
-            margin-top: 32px;
+        div.Q_ImageCardsR {
+          background: url(images/img2.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(1) {
-            div.Q_ImageCards {
-                background: url(images/img6.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img4.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(2) {
-            div.Q_ImageCards {
-                background: url(images/img3.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img11.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img5.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+      }
+      :nth-child(2) {
+        div.Q_ImageCards {
+          background: url(images/img3.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(3) {
-            div.Q_ImageCards {
-                background: url(images/img8.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img1.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img15.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsR {
+          background: url(images/img11.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(4) {
-            div.Q_ImageCards {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img7.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img5.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
+      }
+      :nth-child(3) {
+        div.Q_ImageCards {
+          background: url(images/img8.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img1.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img15.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      :nth-child(4) {
+        div.Q_ImageCards {
+          background: url(images/img18.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img7.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img29.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
     }
+  }
+  body.articles {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 640px;
+      margin-top: -16px;
+      div.O_CardArticle {
+        margin-top: 48px;
+      }
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
+        }
+      }
+    }
+  }
+  body.pdd {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 640px;
+      margin-top: -16px;
+      div.O_CardRulesEducation {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsR {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img2.png);
+        }
+        &.two {
+          background-image: url(images/img11.png);
+        }
+        &.three {
+          background-image: url(images/img1.png);
+        }
+        &.four {
+          background-image: url(images/img7.png);
+        }
+        &.five {
+          background-image: url(images/img14.png);
+        }
+        &.six {
+          background-image: url(images/img12.png);
+        }
+        &.seven {
+          background-image: url(images/img13.png);
+        }
+      }
+      div.Q_ImageCardsS {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.ten {
+          background-image: url(images/img4.png);
+        }
+        &.eleven {
+          background-image: url(images/img5.png);
+        }
+        &.twelve {
+          background-image: url(images/img15.png);
+        }
+        &.thirteen {
+          background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 640px;
+      margin-top: -16px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    /* Mobile */
+  /* Mobile */
+  body.index {
     div.C_Block {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 280px;
-        margin-top: -16px;
-        div.O_CardArticle {
-            margin-top: 32px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: -16px;
+      div.O_CardArticle {
+        margin-top: 32px;
+      }
+      div.O_CardRulesEducation {
+        margin-top: 32px;
+      }
+      :nth-child(1) {
+        div.Q_ImageCards {
+          background: url(images/img6.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        div.O_CardRulesEducation {
-            margin-top: 32px;
+        div.Q_ImageCardsR {
+          background: url(images/img2.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(1) {
-            div.Q_ImageCards {
-                background: url(images/img6.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img4.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(2) {
-            div.Q_ImageCards {
-                background: url(images/img3.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img11.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img5.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+      }
+      :nth-child(2) {
+        div.Q_ImageCards {
+          background: url(images/img3.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(3) {
-            div.Q_ImageCards {
-                background: url(images/img8.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img1.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img15.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsR {
+          background: url(images/img11.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
-        :nth-child(4) {
-            div.Q_ImageCards {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsR {
-                background: url(images/img7.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            div.Q_ImageCardsS {
-                background: url(images/img.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+        div.Q_ImageCardsS {
+          background: url(images/img5.png);
+          background-size: cover;
+          background-repeat: no-repeat;
         }
+      }
+      :nth-child(3) {
+        div.Q_ImageCards {
+          background: url(images/img8.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img1.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img15.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      :nth-child(4) {
+        div.Q_ImageCards {
+          background: url(images/img18.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsR {
+          background: url(images/img7.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        div.Q_ImageCardsS {
+          background: url(images/img29.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
     }
+  }
+  body.articles {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: -16px;
+      div.O_CardArticle {
+        margin-top: 32px;
+      }
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
+        }
+      }
+    }
+  }
+  body.pdd {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: -16px;
+      div.O_CardRulesEducation {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsR {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img2.png);
+        }
+        &.two {
+          background-image: url(images/img11.png);
+        }
+        &.three {
+          background-image: url(images/img1.png);
+        }
+        &.four {
+          background-image: url(images/img7.png);
+        }
+        &.five {
+          background-image: url(images/img14.png);
+        }
+        &.six {
+          background-image: url(images/img12.png);
+        }
+        &.seven {
+          background-image: url(images/img13.png);
+        }
+      }
+      div.Q_ImageCardsS {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.ten {
+          background-image: url(images/img4.png);
+        }
+        &.eleven {
+          background-image: url(images/img5.png);
+        }
+        &.twelve {
+          background-image: url(images/img15.png);
+        }
+        &.thirteen {
+          background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: -16px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }

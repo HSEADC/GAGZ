@@ -19,16 +19,23 @@
 @import 'stylesheets/components/atoms/A_UnitTitle.scss';
 @import 'stylesheets/components/atoms/A_ButtonCTA.scss';
 @import 'stylesheets/components/atoms/A_Tag.scss';
+@import 'stylesheets/components/atoms/A_Empty.scss';
+@import 'stylesheets/components/atoms/A_TestHeader.scss';
+@import 'stylesheets/components/atoms/A_Answer.scss';
+@import 'stylesheets/components/atoms/A_NextButton.scss';
 
 /* molecules */
 @import 'stylesheets/components/molecules/M_SearchBar.scss';
 @import 'stylesheets/components/molecules/M_HeaderSpecialCard.scss';
+@import 'stylesheets/components/molecules/M_SectionTitle.scss';
+@import 'stylesheets/components/molecules/M_QuestionTitle.scss';
 
 /* organisms */
 @import 'stylesheets/components/organisms/O_CardArticle.scss';
 @import 'stylesheets/components/organisms/O_CardRulesEducation.scss';
 @import 'stylesheets/components/organisms/O_CardEducationLong.scss';
 @import 'stylesheets/components/organisms/O_CardSimple.scss';
+@import 'stylesheets/components/organisms/O_TestCard.scss';
 
 /* super-organisms */
 @import 'stylesheets/components/super-organisms/S_Unit.scss';

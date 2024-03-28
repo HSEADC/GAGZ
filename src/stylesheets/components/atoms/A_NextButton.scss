@@ -1,0 +1,112 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.A_NextButton {
+        padding: 16px 64px;
+        button {
+            height: 62px;
+            width: 200px;
+            border: none;
+            outline: none;
+            border-radius: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Geologica';
+            font-weight: 400;
+            background: var(--gvi);
+            margin-left: 1108px;
+            margin-top: 32px;
+        }
+        :hover {
+            background: var(--gvf);
+        }
+        :active {
+            background: var(--gva);
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.A_NextButton {
+        padding: 16px 64px;
+        button {
+            height: 62px;
+            width: 200px;
+            border: none;
+            outline: none;
+            border-radius: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Geologica';
+            font-weight: 400;
+            background: var(--gvi);
+            margin-left: 696px;
+            margin-top: 32px;
+        }
+        :hover {
+            background: var(--gvf);
+        }
+        :active {
+            background: var(--gva);
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.A_NextButton {
+        padding: 16px 64px;
+        button {
+            height: 62px;
+            width: 200px;
+            border: none;
+            outline: none;
+            border-radius: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Geologica';
+            font-weight: 400;
+            background: var(--gvi);
+            margin-left: 440px;
+            margin-top: 32px;
+        }
+        :hover {
+            background: var(--gvf);
+        }
+        :active {
+            background: var(--gva);
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.A_NextButton {
+        padding: 16px 64px;
+        button {
+            height: 62px;
+            width: 200px;
+            border: none;
+            outline: none;
+            border-radius: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Geologica';
+            font-weight: 400;
+            background: var(--gvi);
+            margin-left: 80px;
+            margin-top: 24px;
+        }
+        :hover {
+            background: var(--gvf);
+        }
+        :active {
+            background: var(--gva);
+        }
+    }
+}
