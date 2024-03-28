@@ -20,6 +20,7 @@
 @import 'stylesheets/components/atoms/A_ButtonCTA.scss';
 @import 'stylesheets/components/atoms/A_Tag.scss';
 @import 'stylesheets/components/atoms/A_Empty.scss';
+@import 'stylesheets/components/atoms/A_TestHeader.scss';
 
 /* molecules */
 @import 'stylesheets/components/molecules/M_SearchBar.scss';
@@ -31,6 +32,7 @@
 @import 'stylesheets/components/organisms/O_CardRulesEducation.scss';
 @import 'stylesheets/components/organisms/O_CardEducationLong.scss';
 @import 'stylesheets/components/organisms/O_CardSimple.scss';
+@import 'stylesheets/components/organisms/O_TestCard.scss';
 
 /* super-organisms */
 @import 'stylesheets/components/super-organisms/S_Unit.scss';

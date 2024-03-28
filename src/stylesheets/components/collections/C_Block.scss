@@ -74,7 +74,7 @@
           background-repeat: no-repeat;
         }
         div.Q_ImageCardsS {
-          background: url(images/img.png);
+          background: url(images/img29.png);
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -176,6 +176,59 @@
       }
     }
   }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1310px;
+      margin-top: 32px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
@@ -257,7 +310,7 @@
           background-repeat: no-repeat;
         }
         div.Q_ImageCardsS {
-          background: url(images/img.png);
+          background: url(images/img29.png);
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -358,6 +411,59 @@
         }
         &.thirteen {
           background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 900px;
+      margin-top: -24px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
         }
       }
     }
@@ -548,6 +654,59 @@
       }
     }
   }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 640px;
+      margin-top: -16px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -629,7 +788,7 @@
           background-repeat: no-repeat;
         }
         div.Q_ImageCardsS {
-          background: url(images/img.png);
+          background: url(images/img29.png);
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -730,6 +889,59 @@
         }
         &.thirteen {
           background-image: url(images/img29.png);
+        }
+      }
+    }
+  }
+  body.education {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: -16px;
+      div.O_TestCard {
+        margin-top: 48px;
+      }
+      div.Q_ImageCardsT {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img35.png);
+        }
+        &.two {
+          background-image: url(images/img27.png);
+        }
+        &.three {
+          background-image: url(images/img36.png);
+        }
+        &.four {
+          background-image: url(images/img30.png);
+        }
+        &.five {
+          background-image: url(images/img24.png);
+        }
+        &.six {
+          background-image: url(images/img25.png);
+        }
+        &.seven {
+          background-image: url(images/img26.png);
+        }
+        &.eight {
+          background-image: url(images/img34.png);
+        }
+        &.nine {
+          background-image: url(images/img28.png);
+        }
+        &.ten {
+          background-image: url(images/img31.png);
+        }
+        &.eleven {
+          background-image: url(images/img32.png);
+        }
+        &.twelve {
+          background-image: url(images/img33.png);
         }
       }
     }

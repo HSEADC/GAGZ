@@ -19,10 +19,19 @@
             width: 1288px;
             background-color: var(--rm);
             margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h1 {
                 color: black;
                 text-align: center;
                 margin: 32px;
+            }
+            h3 {
+                color: black;
+                text-align: center;
+                width: 480px;
             }
         }
     }
@@ -50,10 +59,19 @@
             width: 884px;
             background-color: var(--rm);
             margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h1 {
                 color: black;
                 text-align: center;
                 margin: 32px;
+            }
+            h3 {
+                color: black;
+                text-align: center;
+                width: 480px;
             }
         }
     }
@@ -80,10 +98,19 @@
             width: 634px;
             background-color: var(--rm);
             margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h1 {
                 color: black;
                 text-align: center;
                 margin: 24px;
+            }
+            h3 {
+                color: black;
+                text-align: center;
+                width: 480px;
             }
         }
     }
@@ -110,10 +137,19 @@
             width: 278px;
             background-color: var(--rm);
             margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h1 {
                 color: black;
                 text-align: center;
                 margin: 24px;
+            }
+            h3 {
+                color: black;
+                text-align: center;
+                width: 274px;
             }
         }
     }
