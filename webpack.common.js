@@ -115,7 +115,10 @@ module.exports = {
       filename: './about.html',
     }),
     // Article
-
+    new HtmlWebpackPlugin({
+      template: './src/articles/article3.html',
+      filename: './article3.html',
+    }),
     // Tests
     new HtmlWebpackPlugin({
       template: './src/tests/test1.html',
