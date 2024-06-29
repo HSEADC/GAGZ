@@ -124,6 +124,10 @@ module.exports = {
       template: './src/rules/rules7.html',
       filename: './rules7.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/rules/rules5.html',
+      filename: './rules5.html',
+    }),
     // Tests
     new HtmlWebpackPlugin({
       template: './src/tests/test1.html',
