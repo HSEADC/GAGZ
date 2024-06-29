@@ -14,16 +14,31 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     /* Tablet */
     div.A_PictureArticleV {
-        height: 336px;
-        width: 974px;
+        height: 388px;
+        width: 336px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 32px;
+        &.one {
+            background-image: url(images/img37.png);
+        }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Tablet Portrait */
     div.A_PictureArticleV {
-        height: 234px;
-        width: 650px;
+        width: 486px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 32px;
+        margin-left: 16px;
+        &.one {
+            background-image: url(images/img37.png);
+            width: 598px;
+            height: 738px;
+        }
     }
 }
 

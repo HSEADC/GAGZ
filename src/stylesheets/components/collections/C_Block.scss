@@ -511,6 +511,49 @@
       }
     }
   }
+  body.article {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 840px;
+      margin-top: 32px;
+      margin-bottom: 64px;
+      margin-left: 24px;
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -746,6 +789,47 @@
         }
         &.twelve {
           background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
+  body.article {
+    div.C_Block {
+      display: flex;
+      flex-direction: column;
+      width: 598px;
+      margin-top: 16px;
+      margin-bottom: 64px;
+      margin-left: 172px;
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
         }
       }
     }
