@@ -228,6 +228,23 @@
       height: fit-content;
       margin-top: 16px;
     }
+    div.upper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 64px;
+      width: 262px;
+      height: fit-content;
+    }
+    p {
+      text-align: left;
+      margin-left: 8px;
+      width: 262px;
+    }
+    p.main {
+      width: 262px;
+      margin-left: 8px;
+      margin-top: 32px;
+    }
     h1 {
       font-size: 24px;
       text-align: center;
@@ -239,5 +256,10 @@
         color: transparent;
       }
     }
+    h2 {
+      text-align: center;
+      color: black;
+      margin-top: 32px;
+  }
   }
 }

@@ -30,16 +30,30 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Tablet Portrait */
-    div.A_PictureArticleV {
-        height: 234px;
-        width: 650px;
+    div.A_PictureArticleH {
+        height: 176px;
+        width: 620px;
+        margin-left: 16px;
+        margin-top: 48px;
+        &.one {
+            background-image: url(images/img38.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
     /* Mobile */
-    div.A_PictureArticleV {
-        height: 118px;
-        width: 312px;
+    div.A_PictureArticleH {
+        height: 108px;
+        width: 262px;
+        margin-left: 8px;
+        margin-top: 16px;
+        &.one {
+            background-image: url(images/img38.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }
 }

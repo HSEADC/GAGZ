@@ -1073,4 +1073,16 @@
       }
     }
   }
+  body.article {
+    div.C_Block {
+      display: flex;
+      flex-direction: column;
+      width: 280px;
+      margin-top: 8px;
+      margin-bottom: 32px;
+      div.Q_ImageCards {
+        display: none;
+      }
+    }
+  }
 }

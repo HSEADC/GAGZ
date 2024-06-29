@@ -28,8 +28,6 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Tablet Portrait */
     div.A_PictureArticleV {
-        width: 486px;
-        height: 600px;
         background-repeat: no-repeat;
         background-size: contain;
         margin-top: 32px;
@@ -45,7 +43,14 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
     /* Mobile */
     div.A_PictureArticleV {
-        height: 118px;
-        width: 312px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 32px;
+        margin-left: 8px;
+        &.one {
+            background-image: url(images/img37.png);
+            width: 262px;
+            height: 324px;
+        }
     }
 }
