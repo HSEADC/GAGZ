@@ -119,6 +119,10 @@ module.exports = {
       template: './src/articles/article3.html',
       filename: './article3.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/article7.html',
+      filename: './article7.html',
+    }),
     // PDD
     new HtmlWebpackPlugin({
       template: './src/rules/rules7.html',
