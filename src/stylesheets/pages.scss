@@ -23,6 +23,45 @@
       }
     }
   }
+  body.article {
+    div.BGRect {
+      background-color: var(--rm);
+      width: 1302px;
+      height: fit-content;
+      margin-top: 24px;
+    }
+    div.upper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-top: 80px;
+    }
+    p {
+      text-align: left;
+      margin-left: 118px;
+      margin-top: 80px;
+      width: 500px;
+    }
+    p.main {
+      width: 740px;
+      margin-left: 280px;
+    }
+    h1 {
+      text-align: center;
+      color: black;
+      span {
+        background-clip: text;
+        background-image: var(--gh);
+        background-size: 100%;
+        color: transparent;
+      }
+    }
+    h2 {
+      text-align: center;
+      color: black;
+      margin-top: 64px;
+  }
+}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
@@ -41,6 +80,25 @@
   body.test {
     h1 {
       text-align: center;
+      span {
+        background-clip: text;
+        background-image: var(--gh);
+        background-size: 100%;
+        color: transparent;
+      }
+    }
+  }
+  body.article {
+    div.BGRect {
+      background-color: var(--rm);
+      width: 888px;
+      height: fit-content;
+      margin-top: 24px;
+    }
+    h1 {
+      font-size: 44px;
+      text-align: center;
+      color: black;
       span {
         background-clip: text;
         background-image: var(--gh);
@@ -75,6 +133,24 @@
       }
     }
   }
+  body.article {
+    div.BGRect {
+      width: 634px;
+      height: fit-content;
+      margin-top: 16px;
+      background-color: var(--rm);
+    }
+    h1 {
+      text-align: center;
+      color: black;
+      span {
+        background-clip: text;
+        background-image: var(--gh);
+        background-size: 100%;
+        color: transparent;
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -94,6 +170,25 @@
     h1 {
       font-size: 16px;
       text-align: center;
+      span {
+        background-clip: text;
+        background-image: var(--gh);
+        background-size: 100%;
+        color: transparent;
+      }
+    }
+  }
+  body.article {
+    div.BGRect {
+      background-color: var(--rm);
+      width: 274px;
+      height: fit-content;
+      margin-top: 16px;
+    }
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      color: black;
       span {
         background-clip: text;
         background-image: var(--gh);

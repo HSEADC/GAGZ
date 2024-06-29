@@ -39,6 +39,12 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+    span {
+      background-clip: text;
+      background-image: var(--gh);
+      background-size: 100%;
+      color: transparent;
+    }
   }
 }
 
@@ -83,6 +89,12 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+    span {
+      background-clip: text;
+      background-image: var(--gh);
+      background-size: 100%;
+      color: transparent;
+    }
   }
 }
 
@@ -127,6 +139,12 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+    span {
+      background-clip: text;
+      background-image: var(--gh);
+      background-size: 100%;
+      color: transparent;
+    }
   }
 }
 
@@ -171,5 +189,11 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+    span {
+      background-clip: text;
+      background-image: var(--gh);
+      background-size: 100%;
+      color: transparent;
+    }
   }
 }

@@ -23,6 +23,9 @@
 @import 'stylesheets/components/atoms/A_TestHeader.scss';
 @import 'stylesheets/components/atoms/A_Answer.scss';
 @import 'stylesheets/components/atoms/A_NextButton.scss';
+@import 'stylesheets/components/atoms/A_PictureArticleV.scss';
+@import 'stylesheets/components/atoms/A_BGInset.scss';
+@import 'stylesheets/components/atoms/A_PictureArticleH.scss';
 
 /* molecules */
 @import 'stylesheets/components/molecules/M_SearchBar.scss';

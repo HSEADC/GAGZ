@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.A_PictureArticleV {
+        height: 600px;
+        width: 486px;
+        margin-right: 118px;
+        &.one {
+            background-image: url(images/img37.png);
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.A_PictureArticleV {
+        height: 336px;
+        width: 974px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.A_PictureArticleV {
+        height: 234px;
+        width: 650px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.A_PictureArticleV {
+        height: 118px;
+        width: 312px;
+    }
+}

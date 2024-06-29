@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1439px) {
+    /* Desktop */
+    div.A_PictureArticleH {
+        height: 315px;
+        width: 1068px;
+        margin-left: 118px;
+        margin-top: 64px;
+        &.one {
+            background-image: url(images/img38.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
+  
+  
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    /* Tablet */
+    div.A_PictureArticleV {
+        height: 336px;
+        width: 974px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Tablet Portrait */
+    div.A_PictureArticleV {
+        height: 234px;
+        width: 650px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    /* Mobile */
+    div.A_PictureArticleV {
+        height: 118px;
+        width: 312px;
+    }
+}

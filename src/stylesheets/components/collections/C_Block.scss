@@ -30,7 +30,7 @@
       }
       :nth-child(2) {
         div.Q_ImageCards {
-          background: url('./images/img3.png');
+          background: url(images/img3.png);
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -225,6 +225,49 @@
         }
         &.twelve {
           background-image: url(images/img33.png);
+        }
+      }
+    }
+  }
+  body.article {
+    div.C_Block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 888px;
+      margin-top: 32px;
+      margin-left: 208px;
+      margin-bottom: 64px;
+      div.Q_ImageCards {
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.one {
+          background-image: url(images/img6.png);
+        }
+        &.two {
+          background-image: url(images/img21.png);
+        }
+        &.three {
+          background-image: url(images/img22.png);
+        }
+        &.four {
+          background-image: url(images/img8.png);
+        }
+        &.five {
+          background-image: url(images/img19.png);
+        }
+        &.six {
+          background-image: url(images/img20.png);
+        }
+        &.seven {
+          background-image: url(images/img3.png);
+        }
+        &.eight {
+          background-image: url(images/img23.png);
+        }
+        &.nine {
+          background-image: url(images/img18.png);
         }
       }
     }
